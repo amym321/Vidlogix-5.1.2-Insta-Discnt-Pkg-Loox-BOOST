@@ -110,8 +110,8 @@
         "enable_video_looping": true,
         "product_video_style": "unmuted",
         "enable_dp": true,
-        "dp_heading": "",
-        "dp_heading_default": true,
+        "dp_heading": "Buy More, Save More!",
+        "dp_heading_default": false,
         "dp_quickview_enabled": true
       }
     },
