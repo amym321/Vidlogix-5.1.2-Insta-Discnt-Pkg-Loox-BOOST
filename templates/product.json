@@ -110,7 +110,7 @@
         "enable_video_looping": true,
         "product_video_style": "unmuted",
         "enable_dp": true,
-        "dp_heading": "Make it a bundle",
+        "dp_heading": "",
         "dp_heading_default": true,
         "dp_quickview_enabled": true
       }
