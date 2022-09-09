@@ -294,30 +294,17 @@
 
 
                         {%- if settings.enable_product_reviews -%}
-
                           {% comment %} add Loox Reviews- am{% endcomment %}
-                          <div class="product-single__review-link animate-scroll">
-                            <a href="#reviews">
-                              <div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}"></div>
-                            </a>
+                          <div class="accordion accordion-review closed" id="reviews">
+                            <span class="accordion-title reviews-accordion-title">Reviews Accordion</span>
+                            {% comment %}<div class="accordion-review-stars">{%- liquid render 'junip-product-summary', product: product -%}</div>{% endcomment %}
+                            <span class="icon"></span>
                           </div>
-                          {% comment %}remove Rapid Reviews- am{% endcomment %}{% comment %}
-                              <div class="product-single__review-link animate-scroll">
-                                <div class="rapid_reviews_stars_badge"></div>
-                              </div>
-                          {% endcomment %}
-                          {% comment %}remove Junip Reviews- am{% endcomment %}{% comment %} 
-                            {% if isModal %}
-                              <div class="product-single__review-link">
-                                {%- liquid render 'junip-product-summary', product: product -%}
-                              </div>
-                            {% else %}
-                              <div class="product-single__review-link animate-scroll">
-                                {%- liquid render 'junip-product-summary', product: product -%}
-                              </div>
-                            {% endif %}
-                          {% endcomment %}
-        
+                          <div id="looxAccordion" style="display:none;">
+                            <div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default add-title">
+                              {{ product.metafields.loox.reviews }}
+                            </div><br><br>
+                          </div>
                         {%- endif -%}
 
                       </div>
