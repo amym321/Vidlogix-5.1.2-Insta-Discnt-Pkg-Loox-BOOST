@@ -294,17 +294,14 @@
 
 
                         {%- if settings.enable_product_reviews -%}
+
                           {% comment %} add Loox Reviews- am{% endcomment %}
-                          <div class="accordion accordion-review closed" id="reviews">
-                            <span class="accordion-title reviews-accordion-title">Reviews Accordion</span>
-                            {% comment %}<div class="accordion-review-stars">{%- liquid render 'junip-product-summary', product: product -%}</div>{% endcomment %}
-                            <span class="icon"></span>
+                          <div class="product-single__review-link animate-scroll">
+                            <a href="#reviews">
+                              <div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}"></div>
+                            </a>
                           </div>
-                          <div id="looxAccordion" style="display:none;">
-                            <div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default add-title">
-                              {{ product.metafields.loox.reviews }}
-                            </div><br><br>
-                          </div>
+        
                         {%- endif -%}
 
                       </div>
@@ -674,27 +671,19 @@
           {% endunless %}
 
           <!-- REVIEWS ACCORDION -->
-            {% comment %}remove junip. Rapid Reviews is at bottom. this is just the accordion header - am{% endcomment %}
-            {% comment %}
-              {% if settings.enable_product_reviews %}
-                <div class="accordion accordion-review closed" id="reviews">
-                  <span class="accordion-title reviews-accordion-title">Reviews & Q/A</span>
-                      <div class="reviews-accordion reviews-accordion-title">
-                        {% render 'rapid-reviews-collection-badge' %}
-                      </div>
-                  {% comment %}<div class="accordion-review-stars">{%- liquid render 'junip-product-summary', product: product -%}</div>{% endcomment %}
-                  <span class="icon"></span>
-                </div>
-              {% endif %}
-            {% endcomment %}
-          
-            {% comment %}LOOX Reviews added - am {% endcomment %}
-            <div class="accordion accordion-review" id="reviews">
-              <span class="accordion-title reviews-accordion-title">Reviews</span>
-            </div>
-            <div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default add-title">
-              {{ product.metafields.loox.reviews }}
-            </div><br><br>
+            {% comment %}Loox Reviews accrodion- am{% endcomment %}
+            {% if settings.enable_product_reviews %}
+              <div class="accordion accordion-review closed" id="reviews">
+                <span class="accordion-title reviews-accordion-title">Reviews Accordion</span>
+                {% comment %}<div class="accordion-review-stars">{%- liquid render 'junip-product-summary', product: product -%}</div>{% endcomment %}
+                <span class="icon"></span>
+              </div>
+              <div id="looxAccordion" style="display:none;">
+                <div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default add-title">
+                  {{ product.metafields.loox.reviews }}
+                </div><br><br>
+              </div>
+            {% endif %}
 
 
            <!-- RECOMMENDED PRODUCTS ACCORDION -->
