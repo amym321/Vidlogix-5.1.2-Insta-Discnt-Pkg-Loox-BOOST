@@ -799,10 +799,6 @@
         "content": "Product reviews"
       },
       {
-        "type": "paragraph",
-        "content": "This theme has been updated specifically for Vidlogix to show reviews using Junip Reviews."
-      },
-      {
         "type": "checkbox",
         "label": "Enable product reviews",
         "id": "enable_product_reviews"

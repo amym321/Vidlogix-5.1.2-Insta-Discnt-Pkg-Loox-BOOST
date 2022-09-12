@@ -1,7 +1,0 @@
-{% assign avg = product.metafields.rapid_reviews.counts.value.r.rating.avg %}
-{% unless avg %}{% assign avg = 0 %}{% endunless %}
-{% assign count = product.metafields.rapid_reviews.counts.value.r.counts.core.total %}
-{% unless count %}{% assign count = 0 %}{% endunless %}
-{% if count > 0 %}
-  <div class="rapid_reviews_stars_badge" data-avg="{{ avg }}" data-count="{{ count }}" data-url="{{ product.url }}"></div>
-{% endif %}

@@ -135,28 +135,8 @@
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'reviews' -%}
-
-
-                    {% comment %} removed and added code change per 4.1.1 customization {% endcomment %}
-
-                    {% comment %}add Rapid Reviews- am{% endcomment %}
-                    <div class="product-single__review-link animate-scroll">
-                      <div class="rapid_reviews_stars_badge"></div>
-                    </div>
-                    {% comment %}remove Junip Reviews- am{% endcomment %}{% comment %}                    
-                      {% if isModal %}
-                        <div class="product-single__review-link">
-                          {%- liquid render 'junip-product-summary', product: product -%}
-                        </div>
-                      {% else %}
-                        <div class="product-single__review-link animate-scroll">
-                          {%- liquid render 'junip-product-summary', product: product -%}
-                        </div>
-                      {% endif %}  
-                    {% endcomment %}
-
              
-                  {% comment %} end code change per 4.1.1 customization {% endcomment %}
+                    {% comment %} previously had reviews code & 4.1.1 customization {% endcomment %}
 
                   {%- when 'separator' -%}
                     <div class="product-block block-no-margin"><hr class="hr--small product-single"></div>
@@ -674,8 +654,7 @@
             {% comment %}Loox Reviews accrodion- am{% endcomment %}
             {% if settings.enable_product_reviews %}
               <div class="accordion accordion-review closed" id="reviews">
-                <span class="accordion-title reviews-accordion-title">Reviews</span>
-                {% comment %}<div class="accordion-review-stars">{%- liquid render 'junip-product-summary', product: product -%}</div>{% endcomment %}
+                <span class="accordion-title reviews-accordion-title">Reviews</span>               
                 <span class="icon"></span>
               </div>
               <div id="looxAccordion" style="display:none;">
@@ -810,7 +789,3 @@
     </div>
   </div>
 </div>
-
-    {% comment %}remove Rapid Reviews - am {% endcomment %}{% comment %}
-      {% render 'rapid-reviews-product-detail-extras' %}
-    {% endcomment %}
