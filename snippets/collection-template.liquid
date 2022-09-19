@@ -1,5 +1,13 @@
-{% comment %} minor code change per 4.1.1 customization. File was in Sections in 4.1.1 {% endcomment %}
 {%- liquid
+  assign filter_tree_vertical_style = shop.metafields.bc-sf-filter.settings | split: 'general":' | last | split: 'filterTreeVerticalStyle":"' | last | split: '","' | first | strip
+  assign enable_filter_sticky_d = shop.metafields.bc-sf-filter.settings | split: 'general":' | last | split: 'stickyFilterOnDesktop":' | last | split: ',' | first | strip
+  assign enable_filter_sticky_m = shop.metafields.bc-sf-filter.settings | split: 'general":' | last | split: 'stickyFilterOnMobile":' | last | split: ',' | first |  split: '}}' | first | strip
+
+  assign enable_filter_tree_button_desktop_v = false
+  if filter_tree_vertical_style == 'style-off-canvas' or filter_tree_vertical_style == 'style-expand'
+    assign enable_filter_tree_button_desktop_v = true
+  endif
+  
   assign per_row = 4
   assign paginate_by = per_row | times: 7
 
@@ -18,7 +26,7 @@
   endfor
 -%}
 
-{%- paginate collection.products by paginate_by -%}
+{% paginate collection.products by paginate_by %}
 
 {%- for block in section.blocks -%}
   <div {{ block.shopify_attributes }}>
@@ -34,91 +42,70 @@
         {%- render 'subcollections', per_row: block.settings.subcollections_per_row -%}
       {%- endif -%}
     {%- when 'product_grid' -%}
-      <div class="collection-filter">
-        {%- liquid
-          assign current_filter_size = 0
-
-          for filter in collection.filters
-            assign current_filter_size = current_filter_size | plus: filter.active_values.size
-          endfor
-        -%}
-        <div class="collection-filter__item collection-filter__item--drawer">
-          <button
-            type="button"
-            class="js-drawer-open-collection-filters btn btn--tertiary{% unless current_filter_size == 0 %} btn--tertiary-active{% endunless %}"
-            aria-controls="FilterDrawer">
-            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-filter" viewBox="0 0 64 64"><path d="M48 42h10M48 42a5 5 0 1 1-5-5 5 5 0 0 1 5 5zM7 42h31M16 22H6M16 22a5 5 0 1 1 5 5 5 5 0 0 1-5-5zM57 22H26"/></svg>
-            {{ 'collections.filters.title_tags' | t }}
-            {%- if current_filter_size > 0 -%}
-              ({{ current_filter_size }})
-            {%- endif -%}
-          </button>
+    <div class="collection-filter 
+      {% if enable_filter_sticky_d and enable_filter_tree_button_desktop_v %} boost-pfs-filter-tree-desktop-button-sticky-wrapper {% endif %} {% if enable_filter_sticky_m %}boost-pfs-filter-tree-mobile-button-stick-wrapper {% endif %}">
+      <div class="collection-filter__item collection-filter__item--drawer">
+        <div class="button boost-pfs-filter-tree-mobile-button">
+          {% render 'boost-pfs-filter-skeleton', type: 'button' %}
         </div>
+      </div>
 
-        <div class="collection-filter__item collection-filter__item--count small--hide">
-          {%- if block.settings.enable_collection_count -%}
+      <div class="collection-filter__item collection-filter__item--count small--hide">
+        {%- if enable_filter_tree_button_desktop_v  -%}
+          <div class="boost-pfs-filter-tree-desktop-button">{%- render 'boost-pfs-filter-skeleton', type: 'button' -%}</div>
+        {%- endif -%}
+        {%- if block.settings.enable_collection_count -%}
+          <div class="boost-pfs-filter-total-product">
             {{ 'collections.general.items_with_count' | t: count: collection.products_count }}
-          {%- endif -%}
-        </div>
-
-        <div class="collection-filter__item collection-filter__item--sort">
-          <div class="collection-filter__sort-container">
-            {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-            <label for="SortBy" class="hidden-label">{{ 'collections.sorting.title' | t }}</label>
-            <select name="SortBy" id="SortBy" data-default-sortby="{{ collection.default_sort_by }}">
-              <option value="title-ascending"{% if sort_by == collection.default_sort_by %} selected="selected"{% endif %}>{{ 'collections.sorting.title' | t }}</option>
-              {%- for option in collection.sort_options -%}
-                <option value="{{ option.value }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name }}</option>
-              {%- endfor -%}
-            </select>
           </div>
-        </div>
+        {%- endif -%}
       </div>
 
-      <div class="hr--medium"></div>
-
-      {%- if block.settings.enable_collection_count -%}
-        <p class="medium-up--hide text-center" data-scroll-to>{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</p>
-      {%- endif -%}
-
-      <div
-      class="flex-grid flex-grid--start grid--uniform{% if section.settings.mobile_flush_grid %} small--grid--flush{% endif %}"{% unless section.settings.enable_collection_count %} data-scroll-to{% endunless %}>
-        {%- liquid
-          assign grid_item_width = 'small--one-half medium-up--one-third'
-
-          case per_row
-            when 2
-              assign grid_item_width = 'medium-up--one-half'
-            when 3
-              assign grid_item_width = 'small--one-half medium-up--one-third'
-            when 4
-              assign grid_item_width = 'small--one-half medium-up--one-quarter'
-            when 5
-              assign grid_item_width = 'small--one-half medium-up--one-fifth'
-          endcase
-        -%}
-
-        {%- for product in collection.products -%}
-          {%- render 'product-grid-item', product: product, grid_item_width: grid_item_width, per_row: per_row -%}
-        {%- else -%}
-          <div class="grid__item">
-            <p>{{ 'collections.general.no_matches' | t }}</p>
-          </div>
-        {%- endfor -%}
-
+      <div class="collection-filter__item collection-filter__item--sort">
+        <div class="collection-filter__sort-container boost-pfs-filter-top-sorting">
+          {% render 'boost-pfs-filter-skeleton', width: 3 %}
+        </div>
       </div>
+    </div>
+    <div class="boost-pfs-filter-products grid grid--uniform{% if block.settings.mobile_flush_grid %} small--grid--flush{% endif %}" data-boost-sort="{{ collection.default_sort_by }}" data-scroll-to>
+      {%- liquid
+        assign grid_item_width = 'small--one-half medium-up--one-third'
 
-      {%- if paginate.pages > 1 -%}
-        {%- render 'pagination', paginate: paginate -%}
-      {%- endif -%}
+        case per_row
+          when 2
+            assign grid_item_width = 'medium-up--one-half'
+          when 3
+            assign grid_item_width = 'small--one-half medium-up--one-third'
+          when 4
+            assign grid_item_width = 'small--one-half medium-up--one-quarter'
+          when 5
+            assign grid_item_width = 'small--one-half medium-up--one-fifth'
+        endcase
+      -%}
 
+      {% for product in collection.products %}
+        {% render 'product-grid-item', product: product, grid_item_width: grid_item_width, per_row: per_row %}
+      {% endfor %}
+
+    </div>
+
+    <div class="boost-pfs-filter-bottom-pagination pagination">
+      {% if paginate.pages > 1 %}
+        {% render 'pagination' %}
+      {% endif %}
+    </div>
+    <div class="boost-pfs-filter-load-more"></div>
+    <div class="boost-pfs-quick-shop-modal-container">
       {%- if settings.quick_shop_enable -%}
         {%- for product in collection.products -%}
-          {%- render 'quick-shop-modal', product: product -%}
+          {%- if product.available -%}
+            {%- render 'quick-shop-modal' -%}
+          {%- endif -%}
         {%- endfor -%}
       {%- endif -%}
+    </div>
     {%- endcase -%}
   </div>
 {%- endfor -%}
 
-{%- endpaginate -%}
+{% endpaginate %}

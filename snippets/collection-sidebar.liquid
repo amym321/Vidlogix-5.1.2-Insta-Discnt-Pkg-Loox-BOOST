@@ -2,17 +2,14 @@
   <div
     id="CollectionSidebar"
     data-style="{{ section.settings.filter_style }}">
-
-    {%- render 'sidebar-drawer', section: section -%}
-
+    {%- assign animation_row = 1 -%}
     {%- if section.settings.filter_style == 'sidebar' -%}
-      <div class="collection-sidebar small--hide">
-        {%- render 'collection-sidebar-filters', location: 'CollectionSidebar', section: section -%}
+      <div class="collection-sidebar">
+        <div class="boost-pfs-filter-tree boost-pfs-filter-tree-v"></div>
       </div>
     {%- endif -%}
   </div>
 {%- endif -%}
-
 {%- if section.settings.enable_sidebar == false or section.settings.filter_style == 'drawer' -%}
   {% comment %}
     Override grid styles if sidebar is disabled
