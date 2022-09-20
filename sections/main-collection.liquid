@@ -1,5 +1,5 @@
 {%- assign boost_settings = shop.metafields.bc-sf-filter.settings -%}
-{%- assign boost_in_collection_search = boost_settings | split: 'enableCollectionSearch":' | last | split: ',"' | first | strip -%}
+{%- assign boost_in_collection_search = boost_settings | split: 'enableCollectionSearch":' | last | split: ',"' | first | strip | remove: "}" -%}
 {%- liquid
 	assign per_row = 4
   assign paginate_by = per_row | times: 7
@@ -33,7 +33,7 @@
 >
   <div id="CollectionAjaxContent">
     <div class="page-width">
-      {% if boost_in_collection_search == true %}
+      {% if boost_in_collection_search == 'true' %}
         <div class="eight columns boost-pfs-in-collection-search">
           {% render 'boost-pfs-filter-skeleton', width: 4 %}
         </div>
