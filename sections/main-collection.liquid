@@ -1,7 +1,7 @@
 {%- assign boost_settings = shop.metafields.bc-sf-filter.settings -%}
 {%- assign boost_in_collection_search = boost_settings | split: 'enableCollectionSearch":' | last | split: ',"' | first | strip | remove: "}" -%}
 {%- liquid
-	assign per_row = 4
+  assign per_row = 4
   assign paginate_by = per_row | times: 7
 
   for block in section.blocks
@@ -33,11 +33,23 @@
 >
   <div id="CollectionAjaxContent">
     <div class="page-width">
-      {% if boost_in_collection_search == 'true' %}
+       {% if boost_in_collection_search == 'true' %}
         <div class="eight columns boost-pfs-in-collection-search">
-          {% render 'boost-pfs-filter-skeleton', width: 4 %}
+          <div class="boost-pfs-in-collection-search-wrapper">
+            <input aria-label="Search this collection" class="boost-pfs-in-collection-search-input" type="text" placeholder="Search this collection">
+            <button type="button" class="boost-pfs-in-collection-search-clear">
+              <svg aria-hidden="true" width="15" height="16" viewBox="0 0 20 20">
+                <path d="M11.414 10l6.293-6.293a1 1 0 10-1.414-1.414L10 8.586 3.707 2.293a1 1 0 00-1.414 1.414L8.586 10l-6.293 6.293a1 1 0 101.414 1.414L10 11.414l6.293 6.293A.998.998 0 0018 17a.999.999 0 00-.293-.707L11.414 10z" fill="#222222"></path>
+              </svg>
+            </button>
+            <button type="button" class="boost-pfs-in-collection-search-button">
+              <svg aria-hidden="true" width="15" height="16" viewBox="0 0 15 16" fill="none">
+                <path d="M14.4323 14.4001L10.4594 10.4801C12.1215 8.32012 11.9188 5.20012 9.93233 3.24012C7.74314 1.08012 4.17558 1.08012 1.94585 3.24012C-0.243342 5.40012 -0.243342 8.92012 1.94585 11.1201C2.9999 12.1601 4.41882 12.7601 5.91882 12.7601C7.13504 12.7601 8.31071 12.3601 9.28368 11.6401L13.2567 15.5601C13.4188 15.7201 13.6215 15.8001 13.8242 15.8001C14.0269 15.8001 14.2296 15.7201 14.3918 15.5601C14.7567 15.2001 14.7567 14.7201 14.4323 14.4001ZM5.95936 11.1201C4.90531 11.1201 3.89179 10.7201 3.12152 9.96012C1.54044 8.40012 1.54044 5.92012 3.12152 4.36012C3.89179 3.60012 4.94585 3.20012 5.95936 3.20012C6.97287 3.20012 8.02693 3.60012 8.7972 4.36012C10.3783 5.92012 10.3783 8.40012 8.7972 9.96012C8.02693 10.7201 7.01341 11.1201 5.95936 11.1201Z" fill="#222222"></path>
+              </svg>
+            </button>
+          </div>
         </div>
-      {% endif %}
+      {% endif %} 
       <div class="boost-pfs-filter-wrapper">
         <div class="grid">
           <div class="grid__item medium-up--one-fifth grid__item--sidebar boost-pfs-filter-left-col">
