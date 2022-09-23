@@ -441,6 +441,6 @@ var numberQuickViewModalLoaded = 0;
   };
 
   FilterTree.prototype.afterRender = function() {
-    if (boostPFSAppConfig.settings.general.filterTreeVerticalStyle == 'style-expand' && this.parent.eventType == 'init') jQ('body').toggleClass(Class.filterTreeOpenBody);
+    if (boostPFSAppConfig.settings.general.filterTreeVerticalStyle == 'style-expand' && this.parent.eventType == 'init' && !Utils.isMobile()) jQ('body').toggleClass(Class.filterTreeOpenBody);
   }
 })();
