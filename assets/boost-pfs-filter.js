@@ -5,7 +5,7 @@ if (typeof boostPFSThemeConfig !== 'undefined') {
       limit: boostPFSConfig.custom.products_per_page,
       /* Optional */
       loadProductFirst: true,
-      // refineByStyle: 'style2',
+      refineByStyle: 'style2',
     },
     selector: {
       avoidStickyHeader: ''
