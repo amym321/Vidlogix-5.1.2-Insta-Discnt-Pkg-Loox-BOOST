@@ -10,6 +10,7 @@
       "blocks": {
         "e114e0a0-e8fc-47f7-8dcf-07f2f2cee281": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Damaged\/Missing",
             "map_text": "",
