@@ -73,19 +73,6 @@
             "text2": ""
           }
         },
-        "6055492a-dfb9-4b9f-b67a-7a3686be4d9d": {
-          "type": "question",
-          "settings": {
-            "title": "Shipping offer terms",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>We do not ship to freight forwarders or post offices. Some items that ship from the manufacturer can only be delivered to addresses within the 48 contiguous U.S. <a href=\"https:\/\/vidlogix.com\/pages\/contact\" target=\"_blank\" title=\"Contact vidlogix customer service\">Contact us<\/a> for delivery information on specific models. Merchandise amount thresholds for shipping prices apply to the cost of items after any special discounts have been applied and exclusive of any tax. These offers may end at any time. <\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
-        },
         "1640041293a5780292-1": {
           "type": "question",
           "settings": {
@@ -106,7 +93,6 @@
         "73d2ca21-56e4-4662-8c49-1e9f52cc1928",
         "6aca3140-25db-4040-9578-771ed119a3ba",
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa",
-        "6055492a-dfb9-4b9f-b67a-7a3686be4d9d",
         "1640041293a5780292-1"
       ],
       "settings": {
