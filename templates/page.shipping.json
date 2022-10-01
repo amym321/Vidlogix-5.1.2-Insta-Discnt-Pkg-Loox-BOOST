@@ -112,6 +112,19 @@
             "button_chat2": false,
             "text2": ""
           }
+        },
+        "73d2ca21-56e4-4662-8c49-1e9f52cc1928": {
+          "type": "question",
+          "settings": {
+            "title": "Shipping Delays",
+            "map_text": "",
+            "map_popup": false,
+            "text": "<p>Weather, natural disasters and other uncontrollable events can interrupt UPS transportation flow. Shipments delayed due to an uncontrollable event are not eligible for a refund or credit under the UPS money-back guarantee policy.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": ""
+          }
         }
       },
       "block_order": [
@@ -122,7 +135,8 @@
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa",
         "6055492a-dfb9-4b9f-b67a-7a3686be4d9d",
         "1640041293a5780292-1",
-        "d4cc094f-fb0e-4d22-89f2-c1420f381b15"
+        "d4cc094f-fb0e-4d22-89f2-c1420f381b15",
+        "73d2ca21-56e4-4662-8c49-1e9f52cc1928"
       ],
       "settings": {
         "title": "FAQs"
