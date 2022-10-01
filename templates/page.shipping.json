@@ -63,7 +63,7 @@
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa": {
           "type": "question",
           "settings": {
-            "title": "Shipping Protection",
+            "title": "Shipping protection",
             "map_text": "",
             "map_popup": false,
             "text": "<p><strong>Insurance Notice<\/strong> – you release vidlogix from responsibility for damaged, lost, and stolen packages over $100.00. You should request insurance over $100 at the time of purchase. The receiver is responsible for additional insurance costs. The receiver is liable to file an insurance claim with UPS. All shipments are DAP unless otherwise noted. <\/p>",
@@ -89,7 +89,7 @@
         "1640041293a5780292-1": {
           "type": "question",
           "settings": {
-            "title": "Signature Request",
+            "title": "Signature request",
             "map_text": "",
             "map_popup": false,
             "text": "<p>All orders over $500 require a signature. The carrier may also require a signature at their discretion. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p>",
