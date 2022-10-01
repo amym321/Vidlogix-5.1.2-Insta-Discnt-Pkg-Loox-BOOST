@@ -50,7 +50,7 @@
         "73d2ca21-56e4-4662-8c49-1e9f52cc1928": {
           "type": "question",
           "settings": {
-            "title": "Shipping Delays",
+            "title": "Shipping delays",
             "map_text": "",
             "map_popup": false,
             "text": "<p>Weather, natural disasters and other uncontrollable events can interrupt UPS transportation flow. Shipments delayed due to an uncontrollable event are not eligible for a refund or credit under the UPS money-back guarantee policy.<\/p>",
