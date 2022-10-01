@@ -66,7 +66,7 @@
             "title": "Shipping protection",
             "map_text": "",
             "map_popup": false,
-            "text": "<p> – you release vidlogix from responsibility for damaged, lost, and stolen packages over $100.00. You should request insurance over $100 at the time of purchase. The receiver is responsible for additional insurance costs. The receiver is liable to file an insurance claim with UPS. All shipments are DAP unless otherwise noted. <\/p>",
+            "text": "<p><strong>Insurance notice<\/strong> – you release Vidlogix from responsibility for damaged, lost, and stolen packages over $100.00. You should request insurance over $100 at the time of purchase. The receiver is responsible for additional insurance costs. The receiver is liable to file an insurance claim with UPS. All shipments are DAP unless otherwise noted. <\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
