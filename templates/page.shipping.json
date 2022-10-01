@@ -40,7 +40,7 @@
             "title": "Loss or Damage",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>Vidlogix's liability for loss or damage to each UPS domestic Package is limited to a value of $100. Unless a greater value is purchased, the Shipper agrees that the released value of each domestic Package is no greater than $100, which is a reasonable value under the circumstances surrounding the transportation, and that Vidlogix shall not be liable for more than $100 for each domestic Package.<\/p>",
+            "text": "<p>UPS's liability for loss or damage to each UPS package is limited to a value of $100. Unless a greater value is purchased, the shipper agrees that the released value of each package is no greater than $100, which is a reasonable value under the circumstances surrounding the transportation, and that UPS shall not be liable for more than $100 for each package.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
