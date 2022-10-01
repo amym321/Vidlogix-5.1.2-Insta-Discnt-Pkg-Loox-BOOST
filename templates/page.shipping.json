@@ -34,6 +34,19 @@
             "text2": ""
           }
         },
+        "253ad047-efe2-4859-8afe-752e90b51111": {
+          "type": "question",
+          "settings": {
+            "title": "Shipping delays",
+            "map_text": "",
+            "map_popup": false,
+            "text": "<p>Weather, natural disasters and other uncontrollable events can interrupt UPS transportation flow. Shipments delayed due to an uncontrollable event are not eligible for a refund or credit under the UPS money-back guarantee policy.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": ""
+          }
+        },
         "6aca3140-25db-4040-9578-771ed119a3ba": {
           "type": "question",
           "settings": {
@@ -72,28 +85,15 @@
             "button_chat2": false,
             "text2": ""
           }
-        },
-        "253ad047-efe2-4859-8afe-752e90b51111": {
-          "type": "question",
-          "settings": {
-            "title": "Shipping delays",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>Weather, natural disasters and other uncontrollable events can interrupt UPS transportation flow. Shipments delayed due to an uncontrollable event are not eligible for a refund or credit under the UPS money-back guarantee policy.<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
         }
       },
       "block_order": [
         "1640041293a5780292-0",
         "b47b4e45-3a62-4d2a-9016-29028090552a",
+        "253ad047-efe2-4859-8afe-752e90b51111",
         "6aca3140-25db-4040-9578-771ed119a3ba",
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa",
-        "1640041293a5780292-1",
-        "253ad047-efe2-4859-8afe-752e90b51111"
+        "1640041293a5780292-1"
       ],
       "settings": {
         "title": "FAQs"
