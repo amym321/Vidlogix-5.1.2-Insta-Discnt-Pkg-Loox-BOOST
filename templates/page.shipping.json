@@ -36,6 +36,7 @@
         },
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Loss or Damage",
             "map_text": "",
