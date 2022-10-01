@@ -98,34 +98,6 @@
             "button_chat2": false,
             "text2": ""
           }
-        },
-        "e114e0a0-e8fc-47f7-8dcf-07f2f2cee281": {
-          "type": "question",
-          "disabled": true,
-          "settings": {
-            "title": "Damaged\/Missing",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>DAMAGED & MISSING MERCHANDISE MUST BE REPORTED WITHIN 7 DAYS OF RECEIVING YOUR ORDER.<\/p><p>Prior to signing receipt of your shipment, carefully inspect the box or boxes for any damage. If you see damage you must mark the delivery receipt accordingly. It is recommended to take pictures of the outside of the box and the inside of the box. Then unpack the contents to ensure there is no concealed damage or missing items.<\/p><p>E-mail the following documentation to <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\" title=\"hello@vidlogix.com\">hello@vidlogix.com<\/a> and we will be happy to work with the freight company to process a damage claim. <\/p><p>• Vidlogix order number<br\/>• Freight tracking number<br\/>• Photographs and description of damage<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
-        },
-        "d4cc094f-fb0e-4d22-89f2-c1420f381b15": {
-          "type": "question",
-          "disabled": true,
-          "settings": {
-            "title": "Sustainability",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p><strong>100% post-consumer recyclable packaging<\/strong><\/p><p>All our packaging, boxes, and inserts are made from recycled paper and are recyclable. We take care to partner with vendors and suppliers that share these same values.<\/p><p><strong>Carbon-neutral shipping<\/strong><\/p><p>Our business is 100% carbon neutral through carbonfund.org, with a certification that covers national shipping, packaging materials, warehouse utilities, and the commutes of our employees.<\/p><p><strong>Smarter packing<\/strong><\/p><p>Our packers are very efficient and have reduced the amount of packing materials we use by almost half. All the paper and plastic material in your box can go into your recycling streams—even the tape, which is also made of paper!<\/p><p><strong>Zero-waste warehouses<\/strong><\/p><p>We raise the bar for being an environmentally responsible company by diverting more than 90% of waste to a recycling stream or reusing it in some way. Both of our fulfillment centers are also powered by renewable energy.<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
         }
       },
       "block_order": [
@@ -135,9 +107,7 @@
         "73d2ca21-56e4-4662-8c49-1e9f52cc1928",
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa",
         "6055492a-dfb9-4b9f-b67a-7a3686be4d9d",
-        "1640041293a5780292-1",
-        "e114e0a0-e8fc-47f7-8dcf-07f2f2cee281",
-        "d4cc094f-fb0e-4d22-89f2-c1420f381b15"
+        "1640041293a5780292-1"
       ],
       "settings": {
         "title": "FAQs"
