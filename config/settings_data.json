@@ -89,7 +89,7 @@
     "search_enable": true,
     "predictive_search_show_price": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Vidlogix_Light_503334cb-ceb3-4bdb-b53f-5883912c0cc2.png",
-    "checkout_logo_position": "left",
+    "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
