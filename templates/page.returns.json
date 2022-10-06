@@ -90,7 +90,7 @@
             "title": "Refund status",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>Return information will be sent to you via the email address used to place your original order.<\/p><p>Refunds and exchanges are typically processed within <strong>1 business day<\/strong> of receipt of your return. Processing times can vary seasonally, your patience is appreciated!<\/p><p>In most cases, once a refund has been submitted, the issuing bank will post it to your account within <strong>3-5 business days<\/strong> when issued to a credit card. Refunds issued to a bank account or pin-less debit typically take 10 business days to reflect on the account balance. This time frame may vary from one financial institution to another.<\/p>",
+            "text": "<p>Return information will be sent to you via the email address used to place your original order.<\/p><p>Refunds are typically processed within <strong>1 business day<\/strong> of receipt of your return. Processing times can vary seasonally, your patience is appreciated!<\/p><p>In most cases, once a refund has been submitted, the issuing bank will post it to your account within <strong>3-5 business days<\/strong> when issued to a credit card. Refunds issued to a bank account or pin-less debit typically take 10 business days to reflect on the account balance. This time frame may vary from one financial institution to another.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
