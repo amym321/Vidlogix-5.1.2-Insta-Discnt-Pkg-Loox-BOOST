@@ -99,6 +99,7 @@
         },
         "0291a141-1043-45b3-9095-ce4b55be1a64": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Warranty policy",
             "map_text": "",
