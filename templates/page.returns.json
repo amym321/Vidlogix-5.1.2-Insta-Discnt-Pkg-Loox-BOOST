@@ -99,11 +99,12 @@
         },
         "0291a141-1043-45b3-9095-ce4b55be1a64": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Warranty policy",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>All items sold by Vidlogix are warranted solely by the manufacturer (\"vendor\"). All items needing repair should be sent to the vendor directly for service. Vidlogix is not liable if the vendor fails to perform warranty service.<\/p>",
+            "text": "<p>All items sold by Vidlogix are warranted solely by the manufacturer (\"vendor\"). All items needing repair should be sent to the vendor directly for service. Vidlogix is not liable if the vendor fails to perform warranty service.<\/p><p>Vidlogix is not responsible for personal data or items left in returned merchandise. Vidlogix is not responsible for any consequential or incidental damage resulting from the sale or use of any merchandise bought from us. We are responsible for the monetary value of the merchandise only. Also, claims for missing items or items damaged in transit must be received within two business days of receipt of merchandise. Please note: any electronics containing user profile data must be either factory reset or password unlocked before sending back to Vidlogix for return.<\/p><p><strong>THERE IS NO IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ON ANY ITEM SOLD BY VIDLOGIX.<\/strong><\/p><p><strong>Vidlogix will not be responsible for any consequential or incidental damage resulting from the sale or use of any merchandise purchased from us. Vidlogix’s liability is limited to the monetary value of the merchandise.<\/strong><\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -123,27 +124,13 @@
             "button_chat2": false,
             "text2": ""
           }
-        },
-        "76ad6f74-fa4a-4d3d-82b7-7277b373b819": {
-          "type": "question",
-          "settings": {
-            "title": "Limited liability",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>Vidlogix is not responsible for personal data or items left in returned merchandise. Vidlogix is not responsible for any consequential or incidental damage resulting from the sale or use of any merchandise bought from us. We are responsible for the monetary value of the merchandise only. Also, claims for missing items or items damaged in transit must be received within two business days of receipt of merchandise. Please note: any electronics containing user profile data must be either factory reset or password unlocked before sending back to Vidlogix for return.<\/p><p><strong>THERE IS NO IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ON ANY ITEM SOLD BY VIDLOGIX.<\/strong><\/p><p><strong>Vidlogix will not be responsible for any consequential or incidental damage resulting from the sale or use of any merchandise purchased from us. Vidlogix’s liability is limited to the monetary value of the merchandise.<\/strong><\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
         }
       },
       "block_order": [
         "16400379824b518b3b-0",
         "7bd60e6a-a7a7-4add-afd9-0c54eff2c6ca",
         "0291a141-1043-45b3-9095-ce4b55be1a64",
-        "16400379824b518b3b-1",
-        "76ad6f74-fa4a-4d3d-82b7-7277b373b819"
+        "16400379824b518b3b-1"
       ],
       "settings": {
         "title": "FAQs"
