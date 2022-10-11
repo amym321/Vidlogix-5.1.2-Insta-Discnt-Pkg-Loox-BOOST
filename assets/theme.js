@@ -5632,9 +5632,47 @@ lazySizesConfig.expFactor = 4;
     return Photoswipe;
   })();
   
+  // added Protection Plan popup for mobile and on mouseover. previously located under Recomended accordion JS - am
   // begin code change per 4.1.1 customization
-  // DAVID FOUNDRY
   theme.ProtectionPlan = (function() {
+    theme.config.bpSmall = matchMedia(theme.config.mediaQuerySmall).matches;
+    matchMedia(theme.config.mediaQuerySmall).addListener(function(mql) {
+      if (mql.matches) {
+        theme.config.bpSmall = true;
+        document.dispatchEvent(new CustomEvent('matchSmall'));
+      }
+      else {
+        theme.config.bpSmall = false;
+        document.dispatchEvent(new CustomEvent('unmatchSmall'));
+      }
+    });
+
+    if (theme.config.bpSmall) {
+        var productId = 4389426856003; // CHANGE BACK TO el = product
+        var handle = 'vidlogix-product-protection-plans';
+        var btn = document.querySelector('.protection-plan__btn'); //CHANGE BACK TO var btn = el.querySelector
+        theme.preloadProductModal(handle, productId, btn);
+    }
+
+    var productPlan = document.getElementById("ProtectionPlan-4389426856003");
+
+    if (productPlan) {
+      productPlan.addEventListener('mouseover', productMouseover);
+    };
+
+    function productMouseover(evt) {
+      var el = evt.currentTarget;
+      if (!theme.config.bpSmall) {
+        el.removeEventListener('mouseover', productMouseover);
+        if (!el) {
+          return;
+        }
+        var productId = el.dataset.productId;
+        var handle = el.dataset.productHandle;
+        var btn = el.querySelector('.quick-product__btn');
+        theme.preloadProductModal(handle, productId, btn);
+      }
+    }
 
     function ProtectionPlan(container) {
       this.container = container;
@@ -5642,7 +5680,7 @@ lazySizesConfig.expFactor = 4;
     }
     return ProtectionPlan;
   })();
-  // end code change per 4.1.1 customization
+  // end code change per 4.1.1 customization and - am customization
   
 
   // *** REMOVE RECOMMENDED ACCORDION - FREQUENTLY BOUGHT TOGETHER REPLACES IT - am ***
