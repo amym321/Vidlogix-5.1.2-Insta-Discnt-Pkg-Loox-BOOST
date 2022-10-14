@@ -131,7 +131,7 @@
         "title": "Featured Brands",
         "textbit": "All your favorite brands. Smart on their own. Smarter together.",
         "grid": 3,
-        "more_link": "shopify:\/\/pages\/store-brands"
+        "more_link": "shopify:\/\/collections\/shop-all"
       }
     },
     "16374663436f00eb2c": {
@@ -273,18 +273,6 @@
     },
     "16601287683bcf7464": {
       "type": "apps",
-      "blocks": {
-        "e6398844-9124-4ce3-808d-f9c802ff22b1": {
-          "type": "shopify:\/\/apps\/rapid-reviews\/blocks\/stars-color\/7a3f281c-98ec-4a98-8b29-ee3200debcb5",
-          "settings": {
-            "active": true,
-            "top_color_predefined": "gold_bright"
-          }
-        }
-      },
-      "block_order": [
-        "e6398844-9124-4ce3-808d-f9c802ff22b1"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
