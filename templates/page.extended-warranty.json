@@ -16,7 +16,7 @@
             "title": "Free 3-Year Warranty",
             "title_size": 40,
             "subheading": "When you checkout with Shop Pay",
-            "chat_widget": true,
+            "chat_widget": false,
             "link": "shopify:\/\/pages\/contact",
             "link_text": "Contact Us",
             "link_2": "",
