@@ -193,7 +193,7 @@
             "title": "Is this backed by an insurer?",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>Every Vidlogix contract is backed by a regulated insurer. Those insurers are backed by reinsurers. Vidlogix and their partners are 100% compliant and contracts will be honored for the entirety of their term.<\/p>",
+            "text": "<p>A regulated insurer backs every Vidlogix contract. Reinsurers underwrite those insurers. Vidlogix and its partners are 100% compliant, and warranties will be honored for the entirety of their term.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
