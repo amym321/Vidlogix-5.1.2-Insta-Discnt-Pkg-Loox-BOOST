@@ -180,7 +180,7 @@
             "title": "How do I file a claim?",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>You can file a claim directly through Vidlogix at <a href=\"\/pages\/contact\" title=\"Contact Us\">vidlogix.com<\/a>. This link can be found in the email sent to you after you purchase coverage. If you ever lose this email, you can reach out to us and we’ll resend it.<\/p>",
+            "text": "<p>You can file a claim directly through Vidlogix at <a href=\"https:\/\/vidlogix.com\/pages\/contact\" target=\"_blank\">vidlogix.com<\/a>. You can find this link in the email sent to you after you purchased coverage. If you ever lose this email, you can reach out to us, and we'll resend it.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
