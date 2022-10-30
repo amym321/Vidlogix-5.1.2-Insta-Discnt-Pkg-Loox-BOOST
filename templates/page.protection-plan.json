@@ -217,7 +217,7 @@
           "type": "rich-text",
           "settings": {
             "title": "",
-            "text": "<p>If you love small print or you're an aspiring lawyer, you can read more details about terms & conditions by clicking <a href=\"\/pages\/terms\" title=\"Terms & Conditions\">here<\/a>.<\/p>",
+            "text": "<p><a href=\"\/pages\/terms\" target=\"_blank\" title=\"Terms & Conditions\">Vidlogix Protection Plus terms & conditions<\/a>.<\/p>",
             "button_link": "",
             "button_text": "Button Text",
             "button_chat": false,
