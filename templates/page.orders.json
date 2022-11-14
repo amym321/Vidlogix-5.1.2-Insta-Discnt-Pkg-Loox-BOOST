@@ -49,26 +49,13 @@
             "text2": ""
           }
         },
-        "705e67b6-2eb8-44f8-9677-a79e67901a1e": {
-          "type": "question",
-          "settings": {
-            "title": "Pending charges",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>When you place an order, vidlogix.com contacts the issuing bank to confirm the payment method's validity. Your bank reserves the funds until the entire transaction processes or the authorization expires, but this isn't an actual charge. <\/p><p>Contact your bank to clarify how long they hold authorizations for online orders to remove an authorization. You can cancel an order at any time before shipment, at no cost to you, by <a href=\"https:\/\/www.vidlogix.com\/pages\/contact\" target=\"_blank\">contacting support<\/a>.<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
-        },
         "1649113135d5e52336-1": {
           "type": "question",
           "settings": {
             "title": "When will I be charged?",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>We will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. We do this to protect the cardholder against fraudulent activity.<\/p>",
+            "text": "<p>When you place an order, vidlogix.com contacts the issuing bank to confirm the payment method's validity. Your bank reserves the funds until the entire transaction processes or the authorization expires, but this isn't an actual charge. <\/p><p>Contact your bank to clarify how long they hold authorizations for online orders to remove an authorization. You can cancel an order at any time before shipment, at no cost to you, by <a href=\"https:\/\/www.vidlogix.com\/pages\/contact\" target=\"_blank\">contacting support<\/a>.<\/p><p>We will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. We do this to protect the cardholder against fraudulent activity.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -156,7 +143,6 @@
       },
       "block_order": [
         "1649113135d5e52336-0",
-        "705e67b6-2eb8-44f8-9677-a79e67901a1e",
         "1649113135d5e52336-1",
         "1ec0b703-091d-4378-96ba-e78f42de45b9",
         "6f7e45da-3444-4641-ac73-85aab402de7c",
