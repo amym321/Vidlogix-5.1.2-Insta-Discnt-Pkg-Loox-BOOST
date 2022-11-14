@@ -55,7 +55,7 @@
             "title": "When will I be charged?",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>When you place an order, vidlogix.com contacts the issuing bank to confirm the payment method's validity. Your bank reserves the funds until the entire transaction processes or the authorization expires, but this isn't an actual charge. <\/p><p>Contact your bank to clarify how long they hold authorizations for online orders to remove an authorization. You can cancel an order at any time before shipment, at no cost to you, by <a href=\"https:\/\/www.vidlogix.com\/pages\/contact\" target=\"_blank\">contacting support<\/a>.<\/p><p>We will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. We do this to protect the cardholder against fraudulent activity.<\/p>",
+            "text": "<p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. We do this to protect the cardholder against fraudulent activity.<\/p><p><strong>Pending charges<\/strong> – When you place an order, vidlogix.com contacts the issuing bank to confirm the payment method's validity. Your bank reserves the funds until the entire transaction processes or the authorization expires, but this isn't an actual charge. <\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
