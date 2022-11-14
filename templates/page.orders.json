@@ -117,10 +117,10 @@
         "55d786e9-0268-406d-a7cd-57aba1658506": {
           "type": "question",
           "settings": {
-            "title": "Order verification",
+            "title": "Order acceptance",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>Some orders are subject to Vidlogix's verification procedure. For your protection from credit card fraud or identity theft, we may ask you to verify that you're the cardholder or that the order and the ship-to information are legitimate. This process rarely delays an order and generally requires a simple call-back (which can be done after business hours) or fax. <br\/><br\/>If your order requires verification, we will advise you by phone or email. You must leave both day and home phone numbers when ordering and keep your information current. <br\/><br\/>It is also crucial that you understand what we mean by bill-to information on the checkout process. The bill-to address is the address to which your bank mails your monthly credit card statement. The bill-to address you give us must agree with the card-issuing bank's address on file. Please be sure you provide the correct information, even if the items are shipped to a different location. <br\/><br\/>We regret that this is necessary, but it is designed to protect the cardholder and the retailer.<\/p>",
+            "text": "<p>Vidlogix may, in its sole discretion, refuse or cancel any order and limit order quantity. Vidlogix may also require additional qualifying information prior to accepting or processing any order. Once we receive your Online or Call Center order, we’ll provide you with an email order confirmation. Your receipt of an order confirmation, however, does not signify Vidlogix’s acceptance of your order, nor does it constitute confirmation of our offer to sell; we are simply confirming that we received your order. Vidlogix reserves the right at any time after receiving your order to accept or decline your order for any reason. If Vidlogix cancels an order after you have already been billed, Vidlogix will refund the billed amount.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
