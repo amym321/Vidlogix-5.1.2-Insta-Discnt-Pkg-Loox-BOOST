@@ -36,13 +36,13 @@
     "1649113135034d1333": {
       "type": "faq",
       "blocks": {
-        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca": {
+        "1649113135d5e52336-0": {
           "type": "question",
           "settings": {
-            "title": "Discounts",
+            "title": "Payments & pricing",
             "map_text": "",
             "map_popup": false,
-            "text": "<p><strong>Product exclusions may apply.<br\/>Excludes promotional price reductions.<\/strong><\/p><p>Discount is only available to verified Vidlogix members. Offers cannot be combined with other offers, discounts, or promo codes. The offer is not valid on prior purchases. Valid on approved domestic U.S. orders only. Vidlogix reserves the right to change terms and conditions, substitute an offer of equal or greater value, or end offers at any time without notice. No cash alternative. Void where prohibited by law. Vidlogix's standard terms and conditions presented at the point of sale govern any purchase.<\/p>",
+            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged immediately.  <\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p><p>Vidlogix will match the price shown on any US-based retailer's website for the identical in-stock product (same size, color, year) within 60-days of purchase. <a href=\"https:\/\/www.vidlogix.com\/pages\/price-match\" target=\"_blank\">Learn more<\/a><\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -75,19 +75,6 @@
             "text2": ""
           }
         },
-        "1649113135d5e52336-0": {
-          "type": "question",
-          "settings": {
-            "title": "Payments & pricing",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged immediately.  <\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p><p>Vidlogix will match the price shown on any US-based retailer's website for the identical in-stock product (same size, color, year) within 60-days of purchase. <a href=\"https:\/\/www.vidlogix.com\/pages\/price-match\" target=\"_blank\">Learn more<\/a><\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
-        },
         "fcaf2d8f-8a15-44d6-9418-738b8a5c3854": {
           "type": "question",
           "settings": {
@@ -95,6 +82,19 @@
             "map_text": "<p>UPS Time In Transit Map<\/p>",
             "map_popup": false,
             "text": "<p>Given the popularity and\/or supply constraints of some of our products, Vidlogix may have to limit the number of products available for purchase. Trust us, we’re buying them as fast as we can. Vidlogix reserves the right to change quantities available for purchase at any time, even after you place an order. Furthermore, there may be occasions when Vidlogix confirms your order but subsequently learns that it cannot supply the ordered product. In the event we cannot supply a product you ordered, Vidlogix will cancel the order and refund your purchase price in full.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": ""
+          }
+        },
+        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca": {
+          "type": "question",
+          "settings": {
+            "title": "Discounts",
+            "map_text": "",
+            "map_popup": false,
+            "text": "<p><strong>Product exclusions may apply.<br\/>Excludes promotional price reductions.<\/strong><\/p><p>Discount is only available to verified Vidlogix members. Offers cannot be combined with other offers, discounts, or promo codes. The offer is not valid on prior purchases. Valid on approved domestic U.S. orders only. Vidlogix reserves the right to change terms and conditions, substitute an offer of equal or greater value, or end offers at any time without notice. No cash alternative. Void where prohibited by law. Vidlogix's standard terms and conditions presented at the point of sale govern any purchase.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -116,11 +116,11 @@
         }
       },
       "block_order": [
-        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca",
+        "1649113135d5e52336-0",
         "55d786e9-0268-406d-a7cd-57aba1658506",
         "6f7e45da-3444-4641-ac73-85aab402de7c",
-        "1649113135d5e52336-0",
         "fcaf2d8f-8a15-44d6-9418-738b8a5c3854",
+        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca",
         "1ec0b703-091d-4378-96ba-e78f42de45b9"
       ],
       "settings": {
