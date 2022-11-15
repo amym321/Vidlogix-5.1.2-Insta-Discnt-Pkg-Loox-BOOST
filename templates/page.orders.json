@@ -81,7 +81,7 @@
             "title": "Payments & pricing",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>We accept Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>To prevent any unnecessary delays processing your order, please ensure that the billing addresses on your order matches the information on your credit card account. If you have recently moved or are unsure whether you receive your credit card statement at your work or home address, please contact your card-issuing bank using the 800 number on the back of your credit card to confirm.<\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p>",
+            "text": "<p>We accept Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. <\/p><p>To prevent any unnecessary delays processing your order, please ensure that the billing addresses on your order matches the information on your credit card account. <\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -126,19 +126,6 @@
             "button_chat2": false,
             "text2": ""
           }
-        },
-        "1649113135d5e52336-1": {
-          "type": "question",
-          "settings": {
-            "title": "When will I be billed?",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. We do this to protect the cardholder against fraudulent activity.<\/p><p><strong>Pending charges<\/strong> – When you place an order, vidlogix.com contacts the issuing bank to confirm the payment method's validity. Your bank reserves the funds until the entire transaction processes or the authorization expires, but this isn't an actual charge. <\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
         }
       },
       "block_order": [
@@ -148,8 +135,7 @@
         "1649113135d5e52336-0",
         "0b82cfe1-0e07-43a0-9b8f-30d2d128ee07",
         "fcaf2d8f-8a15-44d6-9418-738b8a5c3854",
-        "1ec0b703-091d-4378-96ba-e78f42de45b9",
-        "1649113135d5e52336-1"
+        "1ec0b703-091d-4378-96ba-e78f42de45b9"
       ],
       "settings": {
         "title": "FAQs"
