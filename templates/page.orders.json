@@ -81,7 +81,7 @@
             "title": "Product availability",
             "map_text": "<p>UPS Time In Transit Map<\/p>",
             "map_popup": false,
-            "text": "<p>Given the popularity and\/or supply constraints of some of our products, Vidlogix may have to limit the number of products available for purchase. Trust us, we’re buying them as fast as we can. Vidlogix reserves the right to change quantities available for purchase at any time, even after you place an order. Furthermore, there may be occasions when Vidlogix confirms your order but subsequently learns that it cannot supply the ordered product. In the event we cannot supply a product you ordered, Vidlogix will cancel the order and refund your purchase price in full.<\/p>",
+            "text": "<p>Furthermore, there may be occasions when Vidlogix confirms your order but subsequently learns that it cannot supply the ordered product. In the event we cannot supply a product you ordered, Vidlogix will cancel the order and refund your purchase price in full.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
