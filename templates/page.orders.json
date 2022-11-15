@@ -36,19 +36,6 @@
     "1649113135034d1333": {
       "type": "faq",
       "blocks": {
-        "1649113135d5e52336-0": {
-          "type": "question",
-          "settings": {
-            "title": "Payments & Pricing",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged immediately.  <\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p><p>Vidlogix will match the price shown on any US-based retailer's website for the identical in-stock product (same size, color, year) within 60-days of purchase. <a href=\"https:\/\/www.vidlogix.com\/pages\/price-match\" target=\"_blank\">Learn more<\/a><\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
-        },
         "55d786e9-0268-406d-a7cd-57aba1658506": {
           "type": "question",
           "settings": {
@@ -69,6 +56,19 @@
             "map_text": "",
             "map_popup": false,
             "text": "<p>Replying to your email order confirmation is the easiest and fastest way to cancel a pending order. Please double-check your shipping address and reach out to our team immediately if it needs to be changed. Once you receive a shipping notification we are unable to update addresses. If your address is missing information or needs verification, our team will attempt to reach you via email once. If we are unable to reach you, your order will be canceled and refunded. If your order has shipped and you no longer want these items, we will attempt to intercept the package. Fees may apply for all types of requests; however, you’ll only be charged if the request is completed. If we cannot intercept the package, you may return it after arriving.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": ""
+          }
+        },
+        "1649113135d5e52336-0": {
+          "type": "question",
+          "settings": {
+            "title": "Payments & Pricing",
+            "map_text": "",
+            "map_popup": false,
+            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged immediately.  <\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p><p>Vidlogix will match the price shown on any US-based retailer's website for the identical in-stock product (same size, color, year) within 60-days of purchase. <a href=\"https:\/\/www.vidlogix.com\/pages\/price-match\" target=\"_blank\">Learn more<\/a><\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -117,9 +117,9 @@
         }
       },
       "block_order": [
-        "1649113135d5e52336-0",
         "55d786e9-0268-406d-a7cd-57aba1658506",
         "6f7e45da-3444-4641-ac73-85aab402de7c",
+        "1649113135d5e52336-0",
         "fcaf2d8f-8a15-44d6-9418-738b8a5c3854",
         "962f86a9-d06f-4dd5-aa4f-b8d17195dfca",
         "1ec0b703-091d-4378-96ba-e78f42de45b9"
