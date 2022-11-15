@@ -81,7 +81,7 @@
             "title": "Product availability",
             "map_text": "<p>UPS Time In Transit Map<\/p>",
             "map_popup": false,
-            "text": "<p>Furthermore, there may be occasions when Vidlogix confirms your order but subsequently learns that it cannot supply the ordered product. In the event we cannot supply a product you ordered, Vidlogix will cancel the order and refund your purchase price in full.<\/p>",
+            "text": "<p><strong>Stock-Outs<\/strong> - There may be occasions when Vidlogix confirms your order but subsequently learns that it cannot supply the ordered product. In the event we cannot supply a product you ordered, Vidlogix will cancel the order and refund your purchase price in full.<\/p><p><strong>Back-Order<\/strong> - This is the date we reasonably expect to have this product in stock based on anticipated demand, communications from the manufacturer, and other factors. This is a good faith estimate, not a guarantee. You may cancel an order at any time prior to shipment at no cost to you. Orders are fulfilled on a first-come-first-serve basis.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
