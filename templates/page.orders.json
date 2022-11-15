@@ -20,7 +20,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p>"
+            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay. <\/p>"
           }
         }
       },
