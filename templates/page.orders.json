@@ -78,7 +78,7 @@
         "6f7e45da-3444-4641-ac73-85aab402de7c": {
           "type": "question",
           "settings": {
-            "title": "Cancellations",
+            "title": "Order cancellation",
             "map_text": "",
             "map_popup": false,
             "text": "<p>Replying to your email order confirmation is the easiest and fastest way to cancel a pending order. Please double-check your shipping address and reach out to our team immediately if it needs to be changed. Once you receive a shipping notification we are unable to update addresses. If your address is missing information or needs verification, our team will attempt to reach you via email once. If we are unable to reach you, your order will be canceled and refunded. If your order has shipped and you no longer want these items, we will attempt to intercept the package. Fees may apply for all types of requests; however, you’ll only be charged if the request is completed. If we cannot intercept the package, you may return it after arriving.<\/p>",
