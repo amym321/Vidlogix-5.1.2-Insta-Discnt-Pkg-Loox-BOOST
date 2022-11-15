@@ -65,7 +65,7 @@
         "6f7e45da-3444-4641-ac73-85aab402de7c": {
           "type": "question",
           "settings": {
-            "title": "Order cancellation",
+            "title": "Order Cancellation",
             "map_text": "",
             "map_popup": false,
             "text": "<p>Replying to your email order confirmation is the easiest and fastest way to cancel a pending order. Please double-check your shipping address and reach out to our team immediately if it needs to be changed. Once you receive a shipping notification we are unable to update addresses. If your address is missing information or needs verification, our team will attempt to reach you via email once. If we are unable to reach you, your order will be canceled and refunded. If your order has shipped and you no longer want these items, we will attempt to intercept the package. Fees may apply for all types of requests; however, you’ll only be charged if the request is completed. If we cannot intercept the package, you may return it after arriving.<\/p>",
@@ -78,7 +78,7 @@
         "fcaf2d8f-8a15-44d6-9418-738b8a5c3854": {
           "type": "question",
           "settings": {
-            "title": "Product availability",
+            "title": "Product Availability",
             "map_text": "<p>UPS Time In Transit Map<\/p>",
             "map_popup": false,
             "text": "<p><strong>Stock-Outs<\/strong> - There may be occasions when Vidlogix confirms your order but subsequently learns that it cannot supply the ordered product. In the event we cannot supply a product you ordered, Vidlogix will cancel the order and refund your purchase price in full.<\/p><p><strong>Back-Order<\/strong> - This is the date we reasonably expect to have this product in stock based on anticipated demand, communications from the manufacturer, and other factors. This is a good faith estimate, not a guarantee. You may cancel an order at any time prior to shipment at no cost to you. Orders are fulfilled on a first-come-first-serve basis.<\/p>",
