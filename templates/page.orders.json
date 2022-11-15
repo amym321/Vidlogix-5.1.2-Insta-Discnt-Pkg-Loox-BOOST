@@ -36,39 +36,13 @@
     "1649113135034d1333": {
       "type": "faq",
       "blocks": {
-        "1649113135d5e52336-0": {
+        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca": {
           "type": "question",
           "settings": {
-            "title": "Payments & pricing",
+            "title": "Discounts",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>We accept Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>To prevent any unnecessary delays processing your order, please ensure that the billing addresses on your order matches the information on your credit card account. If you have recently moved or are unsure whether you receive your credit card statement at your work or home address, please contact your card-issuing bank using the 800 number on the back of your credit card to confirm.<\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
-        },
-        "1649113135d5e52336-1": {
-          "type": "question",
-          "settings": {
-            "title": "When will I be billed?",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. We do this to protect the cardholder against fraudulent activity.<\/p><p><strong>Pending charges<\/strong> – When you place an order, vidlogix.com contacts the issuing bank to confirm the payment method's validity. Your bank reserves the funds until the entire transaction processes or the authorization expires, but this isn't an actual charge. <\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": ""
-          }
-        },
-        "1ec0b703-091d-4378-96ba-e78f42de45b9": {
-          "type": "question",
-          "settings": {
-            "title": "Sales tax",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>Vidlogix <em>may<\/em> collect state and local sales tax on items shipping to New York. <\/p><p><strong>Tax Exemption<\/strong><\/p><p>Vidlogix works with many governments, education, non-profit, charitable, and religious organizations that qualify for tax-exempt status. Once approved, customers may make tax-exempt purchases online on behalf of their organizations. Please <a href=\"https:\/\/www.vidlogix.com\/pages\/contact\" target=\"_blank\">contact us<\/a> if you wish to enroll in the Vidlogix Tax Exemption Program (VTEP).<\/p><p><strong>Sales Tax Policy<\/strong><\/p><p>Your order contains one or more items from Vidlogix Labs Inc. and may be subject to local sales tax, depending on the state to which the item is being shipped. Unless otherwise noted, Vidlogix Labs Inc.'s items are subject to sales tax in select states following the state's applicable laws. If your order contains one or more items from a seller other than Vidlogix Labs Inc., it may be subject to state and local sales tax, depending on the seller's business policies and the location of their operations. We do not collect sales or use taxes in all states. For states imposing sales or use taxes, your purchase is subject to use tax unless specifically exempt from taxation. Your purchase is not exempt merely because it is made over the Internet or other remote means. Many states require purchasers to file a sales\/use tax return at the end of the year reporting all of the taxable purchases that were not taxed and to pay tax on those purchases. You may find details on how to file these returns at the websites of your respective taxing authorities. The sales tax indicated on the checkout form is an estimate. The sales tax ultimately charged to your credit card will be calculated when your credit card charge is authorized and will reflect applicable state and local taxes.<\/p>",
+            "text": "<p><strong>Product exclusions may apply.<br\/>Excludes promotional price reductions.<\/strong><\/p><p>Discount is only available to verified Vidlogix members. Offers cannot be combined with other offers, discounts, or promo codes. The offer is not valid on prior purchases. Valid on approved domestic U.S. orders only. Vidlogix reserves the right to change terms and conditions, substitute an offer of equal or greater value, or end offers at any time without notice. No cash alternative. Void where prohibited by law. Vidlogix's standard terms and conditions presented at the point of sale govern any purchase.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -101,13 +75,13 @@
             "text2": ""
           }
         },
-        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca": {
+        "1649113135d5e52336-0": {
           "type": "question",
           "settings": {
-            "title": "Discounts",
+            "title": "Payments & pricing",
             "map_text": "",
             "map_popup": false,
-            "text": "<p><strong>Product exclusions may apply.<br\/>Excludes promotional price reductions.<\/strong><\/p><p>Discount is only available to verified Vidlogix members. Offers cannot be combined with other offers, discounts, or promo codes. The offer is not valid on prior purchases. Valid on approved domestic U.S. orders only. Vidlogix reserves the right to change terms and conditions, substitute an offer of equal or greater value, or end offers at any time without notice. No cash alternative. Void where prohibited by law. Vidlogix's standard terms and conditions presented at the point of sale govern any purchase.<\/p>",
+            "text": "<p>We accept Visa, Mastercard, Discover, American Express, Shop Pay, and Apple Pay.<\/p><p>To prevent any unnecessary delays processing your order, please ensure that the billing addresses on your order matches the information on your credit card account. If you have recently moved or are unsure whether you receive your credit card statement at your work or home address, please contact your card-issuing bank using the 800 number on the back of your credit card to confirm.<\/p><p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -139,17 +113,43 @@
             "button_chat2": false,
             "text2": ""
           }
+        },
+        "1ec0b703-091d-4378-96ba-e78f42de45b9": {
+          "type": "question",
+          "settings": {
+            "title": "Sales tax",
+            "map_text": "",
+            "map_popup": false,
+            "text": "<p>Vidlogix <em>may<\/em> collect state and local sales tax on items shipping to New York. <\/p><p><strong>Tax Exemption<\/strong><\/p><p>Vidlogix works with many governments, education, non-profit, charitable, and religious organizations that qualify for tax-exempt status. Once approved, customers may make tax-exempt purchases online on behalf of their organizations. Please <a href=\"https:\/\/www.vidlogix.com\/pages\/contact\" target=\"_blank\">contact us<\/a> if you wish to enroll in the Vidlogix Tax Exemption Program (VTEP).<\/p><p><strong>Sales Tax Policy<\/strong><\/p><p>Your order contains one or more items from Vidlogix Labs Inc. and may be subject to local sales tax, depending on the state to which the item is being shipped. Unless otherwise noted, Vidlogix Labs Inc.'s items are subject to sales tax in select states following the state's applicable laws. If your order contains one or more items from a seller other than Vidlogix Labs Inc., it may be subject to state and local sales tax, depending on the seller's business policies and the location of their operations. We do not collect sales or use taxes in all states. For states imposing sales or use taxes, your purchase is subject to use tax unless specifically exempt from taxation. Your purchase is not exempt merely because it is made over the Internet or other remote means. Many states require purchasers to file a sales\/use tax return at the end of the year reporting all of the taxable purchases that were not taxed and to pay tax on those purchases. You may find details on how to file these returns at the websites of your respective taxing authorities. The sales tax indicated on the checkout form is an estimate. The sales tax ultimately charged to your credit card will be calculated when your credit card charge is authorized and will reflect applicable state and local taxes.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": ""
+          }
+        },
+        "1649113135d5e52336-1": {
+          "type": "question",
+          "settings": {
+            "title": "When will I be billed?",
+            "map_text": "",
+            "map_popup": false,
+            "text": "<p>Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. Orders shipped to an address other than the billing address will be charged within 24 hours. We do this to protect the cardholder against fraudulent activity.<\/p><p><strong>Pending charges<\/strong> – When you place an order, vidlogix.com contacts the issuing bank to confirm the payment method's validity. Your bank reserves the funds until the entire transaction processes or the authorization expires, but this isn't an actual charge. <\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": ""
+          }
         }
       },
       "block_order": [
-        "1649113135d5e52336-0",
-        "1649113135d5e52336-1",
-        "1ec0b703-091d-4378-96ba-e78f42de45b9",
+        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca",
         "55d786e9-0268-406d-a7cd-57aba1658506",
         "6f7e45da-3444-4641-ac73-85aab402de7c",
-        "962f86a9-d06f-4dd5-aa4f-b8d17195dfca",
+        "1649113135d5e52336-0",
         "0b82cfe1-0e07-43a0-9b8f-30d2d128ee07",
-        "fcaf2d8f-8a15-44d6-9418-738b8a5c3854"
+        "fcaf2d8f-8a15-44d6-9418-738b8a5c3854",
+        "1ec0b703-091d-4378-96ba-e78f42de45b9",
+        "1649113135d5e52336-1"
       ],
       "settings": {
         "title": "FAQs"
