@@ -90,6 +90,7 @@
         },
         "962f86a9-d06f-4dd5-aa4f-b8d17195dfca": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Discounts",
             "map_text": "",
