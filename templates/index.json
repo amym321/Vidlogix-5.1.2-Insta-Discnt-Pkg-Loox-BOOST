@@ -180,6 +180,16 @@
     "163746679950095452": {
       "type": "testimonials",
       "blocks": {
+        "163746679909a0cbe2-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>The price was right. The shipping was quick. The packaging was perfect. How is customer service this good in the 21st century? Keep doing simple and good work.<\/p>",
+            "image": "shopify:\/\/shop_images\/UGC-2.png",
+            "author": "Michael V.",
+            "author_info": ""
+          }
+        },
         "163746679909a0cbe2-0": {
           "type": "testimonial",
           "settings": {
@@ -200,16 +210,6 @@
             "author_info": ""
           }
         },
-        "163746679909a0cbe2-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "quote",
-            "testimonial": "<p>The price was right. The shipping was quick. The packaging was perfect. How is customer service this good in the 21st century? Keep doing simple and good work.<\/p>",
-            "image": "shopify:\/\/shop_images\/UGC-2.png",
-            "author": "Michael V.",
-            "author_info": ""
-          }
-        },
         "163746679909a0cbe2-3": {
           "type": "testimonial",
           "settings": {
@@ -222,9 +222,9 @@
         }
       },
       "block_order": [
+        "163746679909a0cbe2-2",
         "163746679909a0cbe2-0",
         "163746679909a0cbe2-1",
-        "163746679909a0cbe2-2",
         "163746679909a0cbe2-3"
       ],
       "settings": {
