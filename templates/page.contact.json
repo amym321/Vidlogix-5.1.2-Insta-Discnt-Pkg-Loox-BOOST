@@ -46,7 +46,7 @@
       "type": "contact-form",
       "settings": {
         "title": "Contact Us",
-        "text": "<p>Fill out the form below and we'll be in touch within 24 hours, usually sooner.<\/p>",
+        "text": "<p>Please send us any feedback, and you will receive a reply from one of our team leads here. We consistently read each review, rotate through customer support, conduct surveys, gather feedback, and we're always looking for more insight from our customers.<\/p>",
         "show_phone": true,
         "narrow_column": true
       }
