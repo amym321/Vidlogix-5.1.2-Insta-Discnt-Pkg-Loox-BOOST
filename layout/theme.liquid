@@ -146,5 +146,40 @@
  <!--begin-boost-pfs-js-->
    {% render 'boost-pfs' %}
  <!--end-boost-pfs-js-->
+
+ <!--end-boost-pfs-js-->
+
+
+  <!-- navidium script start - am -->
+  <script>
+    let nvdShop = 'vidilogix.myshopify.com'; //{here we put the shop url}
+    let nvdShopCurrency = '{{ shop.money_format | strip_html }}';
+    let nvdControls = {
+      cartCounter: '.title-ajax__cart .text-bold',
+      subtotal_item: '[data-subtotal]', //{in this line we changed the cart subtotal class for changing the subtotal amount }
+      CheckoutBtns: '.cart__checkout', //{ this is the most important part this is the unique class of checkout button that add protection}
+      clickTriggers: '.add-to-cart, .add-to-cart *, .js-qty__adjust, .js-qty__adjust *', //{this part change the protection amount we add the button class here whenever we need to trigger navidium for update  the protection price with cart total amount}
+      changeTrigger: 'chage triggers '
+    }
+  </script>
+  <script src="https://navidiumcheckout.com/cdn/stores/iosfix/nvd-js-asset.js"></script>
+  <script src="https://navidiumcheckout.com/cdn/stores/iosfix/widget-v9-dev.js"></script>
+
+ //style part here for hiding navidium from collection and search etc 
+
+ <style>
+    [data-product-handle*='navidium']{
+      display: none;
+    }
+    .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked + .img svg path {
+    fill: #F6C03F;
+  }
+  
+  .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked {
+      background-color: #F6C03F;
+  }
+  </style>
+     
+<!-- navidium script end -->
 </body>
 </html>

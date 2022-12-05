@@ -112,6 +112,10 @@
           {% endif %}
 
           <div class="cart__checkout-wrapper">
+
+            {%- comment -%} added Navidium - am {%- endcomment -%}
+            <div class='nvd-mini'></div>
+
             <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
               {{ 'cart.general.checkout' | t }}
             </button>
