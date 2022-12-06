@@ -382,7 +382,7 @@
         "cancelled_description": "Brand\/reseller. Order change\/cancellation. Change of address. Failed order verification. Items are unavailable. Payment declined. Address mismatch. Freight forwarder."
       },
       "contact": {
-        "address1_label": "Address."
+        "address1_label": "Address (same as billing)"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Email me with news and offers"
