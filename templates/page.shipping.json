@@ -18,7 +18,7 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         },
         "b47b4e45-3a62-4d2a-9016-29028090552a": {
@@ -31,7 +31,7 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         },
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa": {
@@ -41,7 +41,7 @@
             "title": "Loss or Damage",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>Vidlogix's liability for loss or damage to each package is limited to a value of $100. Unless a greater value is purchased, the receiver agrees that the released value of each package is no greater than $100, which is a reasonable value under the circumstances surrounding the transportation, and that Vidlogix shall not be liable for more than $100 for each package.<\/p>",
+            "text": "<p><strong>*By Deselecting Shipping Protection, our options will be extremely limited in the event of damaged, lost, or stolen packages.<\/strong><\/p><p>Vidlogix's liability for loss or damage to each package is limited to a value of $100. Unless a greater value is purchased, the receiver agrees that the released value of each package is no greater than $100, which is a reasonable value under the circumstances surrounding the transportation, and that Vidlogix shall not be liable for more than $100 for each package.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
@@ -52,39 +52,39 @@
           "type": "question",
           "settings": {
             "title": "Shipping delays",
-            "map_text": "",
+            "map_text": "<p><\/p>",
             "map_popup": false,
             "text": "<p>Weather, natural disasters and other uncontrollable events can interrupt UPS transportation flow. Shipments delayed due to an uncontrollable event are not eligible for a refund or credit under the UPS money-back guarantee policy.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         },
         "6aca3140-25db-4040-9578-771ed119a3ba": {
           "type": "question",
           "settings": {
             "title": "Shipping errors",
-            "map_text": "",
+            "map_text": "<p><\/p>",
             "map_popup": false,
             "text": "<p>Contact our Customer Support team at <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\" title=\"mailto:hello@vidlogix.com\">hello@vidlogix.com<\/a> and we will coordinate a reorder to ship the correct merchandise at no additional cost to you. We may also provide you with a prepaid return shipping label and request an immediate return of the incorrectly received merchandise. To avoid additional charges the incorrectly received merchandise must be shipped within 7 days of receiving the prepaid return shipping label. All regular return policies still apply. All merchandise must be returned unused and in original packaging in order to avoid being charged.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         },
         "1640041293a5780292-1": {
           "type": "question",
           "settings": {
             "title": "Signature request",
-            "map_text": "",
+            "map_text": "<p><\/p>",
             "map_popup": false,
             "text": "<p>All orders over $500 require a signature. The carrier may also require a signature at their discretion. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         }
       },
