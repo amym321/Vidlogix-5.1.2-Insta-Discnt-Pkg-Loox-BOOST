@@ -20,7 +20,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>We offer free shipping on orders over $49. For orders under $49, there will be an $10 shipping fee.<\/strong>We do not ship to freight forwarders, post offices, or UPS Stores. All orders are processed Monday through Friday, from 9am to 5pm ET. In-stock items are usually shipped the same day of order. Orders made after 3pm ET or on weekends or holidays take longer. All shipments are subject to review and could be delayed or stopped if we identify an issue. See <a title=\"UPS Time in Transit Map\">Delivery Times<\/a> for details. Totals are calculated after all discounts and freight charges have been applied. Shipping fees are nonrefundable.<\/p>"
+            "text": "<p><strong>We offer free shipping on orders over $49. For orders under $49, there will be an $10 shipping fee. <\/strong>We do not ship to freight forwarders, post offices, or UPS Stores. All orders are processed Monday through Friday, from 9am to 5pm ET. In-stock items are usually shipped the same day of order. Orders made after 3pm ET or on weekends or holidays take longer. All shipments are subject to review and could be delayed or stopped if we identify an issue. See <a title=\"UPS Time in Transit Map\">Delivery Times<\/a> for details. Totals are calculated after all discounts and freight charges have been applied. Shipping fees are nonrefundable.<\/p>"
           }
         }
       },
@@ -46,7 +46,7 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         },
         "b47b4e45-3a62-4d2a-9016-29028090552a": {
@@ -105,13 +105,13 @@
           "type": "question",
           "settings": {
             "title": "Signature request",
-            "map_text": "",
+            "map_text": "<p><\/p>",
             "map_popup": false,
             "text": "<p>All orders over $500 require a signature. The carrier may also require a signature at their discretion. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         }
       },
