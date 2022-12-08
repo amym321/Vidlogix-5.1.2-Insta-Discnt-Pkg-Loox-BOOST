@@ -2,7 +2,35 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "2e642e3f-f9f2-46be-b961-5388df8848bc": {
+      "type": "smart-header-section",
+      "settings": {
+        "page_title": "",
+        "page_description": ""
+      }
+    },
+    "7eedbe4c-5752-48a6-a03e-fdc538a4af80": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14683425767491__7eedbe4c-5752-48a6-a03e-fdc538a4af80-16705326813d0e5ec1-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>We offer free shipping on orders over $49. For orders under $49, there will be an $10 shipping fee.<\/strong>We do not ship to freight forwarders, post offices, or UPS Stores. All orders are processed Monday through Friday, from 9am to 5pm ET. In-stock items are usually shipped the same day of order. Orders made after 3pm ET or on weekends or holidays take longer. All shipments are subject to review and could be delayed or stopped if we identify an issue. See<a title=\"UPS Time in Transit Map\">Delivery Times<\/a>for details. Totals are calculated after all discounts and freight charges have been applied. Shipping fees are nonrefundable.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14683425767491__7eedbe4c-5752-48a6-a03e-fdc538a4af80-16705326813d0e5ec1-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "1640041293a13b372e": {
@@ -18,7 +46,7 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": ""
           }
         },
         "b47b4e45-3a62-4d2a-9016-29028090552a": {
@@ -38,13 +66,13 @@
           "type": "question",
           "settings": {
             "title": "Shipping Protection",
-            "map_text": "",
+            "map_text": "<p><\/p>",
             "map_popup": false,
             "text": "<p><strong>By deselecting Shipping Protection, our options will be extremely limited in the event of damaged, lost, or stolen packages.<\/strong><\/p><p>Vidlogix's liability for loss or damage to each package is limited to a value of $100. Unless a greater value is purchased, the receiver agrees that the released value of each package is no greater than $100, which is a reasonable value under the circumstances surrounding the transportation, and that Vidlogix shall not be liable for more than $100 for each package.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "<p><\/p>"
           }
         },
         "253ad047-efe2-4859-8afe-752e90b51111": {
@@ -77,13 +105,13 @@
           "type": "question",
           "settings": {
             "title": "Signature request",
-            "map_text": "<p><\/p>",
+            "map_text": "",
             "map_popup": false,
             "text": "<p>All orders over $500 require a signature. The carrier may also require a signature at their discretion. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": ""
           }
         }
       },
@@ -102,6 +130,8 @@
   },
   "order": [
     "main",
+    "2e642e3f-f9f2-46be-b961-5388df8848bc",
+    "7eedbe4c-5752-48a6-a03e-fdc538a4af80",
     "1640041293a13b372e"
   ]
 }
