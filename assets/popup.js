@@ -9,6 +9,7 @@ window.onload = function(){
   var mapModal = document.getElementById("map-popup");
   var mapBtn = document.getElementById("map-btn");    // trigger
   var mapBtn2 = document.getElementById("map-btn2");  // trigger
+  var mapBtn3 = document.querySelector(".index-section .text-left .theme-block p span a span");  // trigger
   // Media Drawer iframe
   var mediaDrawer = document.getElementById("media-drawer");
   var mediaDrwrOverlay = document.getElementById("media-drwr-overlay");
@@ -46,6 +47,12 @@ window.onload = function(){
 
   if (mapBtn2 != null){
     mapBtn2.onclick = function() {
+      mapModal.style.display = "flex";
+    }
+  }
+
+  if (mapBtn3 != null){
+    mapBtn3.onclick = function() {
       mapModal.style.display = "flex";
     }
   }

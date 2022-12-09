@@ -20,7 +20,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>We offer free shipping on orders over $49. For orders under $49, there will be an $10 shipping fee. <\/strong>We do not ship to freight forwarders, post offices, or UPS Stores. All orders are processed Monday through Friday, from 9am to 5pm ET. In-stock items are usually shipped the same day of order. Orders made after 3pm ET or on weekends or holidays take longer. All shipments are subject to review and could be delayed or stopped if we identify an issue. See <a title=\"UPS Time in Transit Map\">Delivery Times<\/a> for details. Totals are calculated after all discounts and freight charges have been applied. Shipping fees are nonrefundable.<\/p>"
+            "text": "<p><strong>We offer free shipping on orders over $49. For orders under $49, there will be an $10 shipping fee. <\/strong>We do not ship to freight forwarders, post offices, or UPS Stores. All orders are processed Monday through Friday, from 9am to 5pm ET. In-stock items are usually shipped the same day of order. Orders made after 3pm ET or on weekends or holidays take longer. All shipments are subject to review and could be delayed or stopped if we identify an issue. See <span><a title=\"UPS Time in Transit Map\"><span>Delivery Times<\/span><\/a> <\/span> for details. Totals are calculated after all discounts and freight charges have been applied. Shipping fees are nonrefundable.<\/p>"
           }
         }
       },
