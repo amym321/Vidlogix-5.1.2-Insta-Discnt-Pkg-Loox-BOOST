@@ -374,7 +374,7 @@
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Express checkout",
-        "or": "🛑 FREE 3-YR WARRANTY WITH SHOP PAY. USE SHOP PAY IF SHIPPING TO AN ADDRESS OTHER THAN THE BILLING ADDRESS. NO P.O. BOX OR UPS STORE. 🛑"
+        "or": "🛑 FREE 3-YR WARRANTY WITH SHOP PAY. USE SHOP PAY IF SHIPPING TO AN ADDRESS OTHER THAN THE BILLING ADDRESS. NO P.O. BOX OR UPS STORE. "
       },
       "thank_you": {
         "page_title": "Thank you, {{ display_name }}!",
