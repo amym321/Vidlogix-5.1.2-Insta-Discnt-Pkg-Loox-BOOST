@@ -374,7 +374,7 @@
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Express checkout",
-        "or": "FREE 3-YR WARRANTY WITH SHOP PAY. USE SHOP PAY IF SHIPPING TO AN ADDRESS OTHER THAN THE BILLING ADDRESS. WE DON'T SHIP TO USPS\/UPS BOXES. ORDERS >$500 REQUIRE AN ADULT SIGNATURE."
+        "or": "FREE 3-YR WARRANTY WITH SHOP PAY. USE SHOP PAY IF SHIPPING TO AN ADDRESS OTHER THAN THE BILLING ADDRESS. WE DON'T SHIP TO USPS\/UPS. ORDERS >$500 REQUIRE AN ADULT SIGNATURE."
       },
       "thank_you": {
         "page_title": "Thank you, {{ display_name }}!",
