@@ -54,6 +54,8 @@
   
               {% when 'question'%}
                 <div class="faq-section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                  <div id="{% if block.settings.title contains "Order Acceptance" %}email-order-accept{% endif %}"></div>
+                  {% comment %} <div id="{% if block.id contains "55d786e9-0268-406d-a7cd-57aba1658506" %}email-link{% endif %}"></div> {% endcomment %}
                   <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
                     {%- render 'collapsible-icons-alt', no_circle: true -%}
                     <span itemprop="name">{{ block.settings.title }}</span>
