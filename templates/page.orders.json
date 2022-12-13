@@ -40,13 +40,14 @@
           "type": "question",
           "settings": {
             "title": "Order Acceptance",
-            "map_text": "<p><\/p>",
+            "map_text": "",
             "map_popup": false,
             "text": "<p>Vidlogix may, in its sole discretion, refuse or cancel any order and limit order quantity. Vidlogix may also require additional qualifying information prior to accepting or processing any order. Once we receive your Online or Call Center order, we’ll provide you with an email order confirmation. Your receipt of an order confirmation, however, does not signify Vidlogix’s acceptance of your order, nor does it constitute confirmation of our offer to sell; we are simply confirming that we received your order. Vidlogix reserves the right at any time after receiving your order to accept or decline your order for any reason. If Vidlogix cancels an order after you have already been billed, Vidlogix will refund the billed amount.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "",
+            "anchor_link": "email-order-accept"
           }
         },
         "6f7e45da-3444-4641-ac73-85aab402de7c": {
@@ -59,7 +60,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "1649113135d5e52336-0": {
@@ -72,7 +74,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "fcaf2d8f-8a15-44d6-9418-738b8a5c3854": {
@@ -85,7 +88,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "962f86a9-d06f-4dd5-aa4f-b8d17195dfca": {
@@ -99,7 +103,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "1ec0b703-091d-4378-96ba-e78f42de45b9": {
@@ -112,7 +117,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         }
       },
