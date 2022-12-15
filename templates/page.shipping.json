@@ -64,6 +64,20 @@
             "anchor_link": ""
           }
         },
+        "1640041293a5780292-1": {
+          "type": "question",
+          "settings": {
+            "title": "Pre-sign for shipment",
+            "map_text": "",
+            "map_popup": false,
+            "text": "<p>All orders over $500 require a signature. The carrier may also require a signature at their discretion. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
+        },
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa": {
           "type": "question",
           "settings": {
@@ -105,29 +119,15 @@
             "text2": "<p><\/p>",
             "anchor_link": ""
           }
-        },
-        "1640041293a5780292-1": {
-          "type": "question",
-          "settings": {
-            "title": "Pre-sign for shipment",
-            "map_text": "",
-            "map_popup": false,
-            "text": "<p>All orders over $500 require a signature. The carrier may also require a signature at their discretion. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": "",
-            "anchor_link": ""
-          }
         }
       },
       "block_order": [
         "1640041293a5780292-0",
         "b47b4e45-3a62-4d2a-9016-29028090552a",
+        "1640041293a5780292-1",
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa",
         "253ad047-efe2-4859-8afe-752e90b51111",
-        "6aca3140-25db-4040-9578-771ed119a3ba",
-        "1640041293a5780292-1"
+        "6aca3140-25db-4040-9578-771ed119a3ba"
       ],
       "settings": {
         "title": "FAQs"
