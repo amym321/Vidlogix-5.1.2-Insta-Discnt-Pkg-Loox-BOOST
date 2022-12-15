@@ -67,7 +67,7 @@
         "1640041293a5780292-1": {
           "type": "question",
           "settings": {
-            "title": "Pre-sign for shipment",
+            "title": "Pre-sign with UPS",
             "map_text": "",
             "map_popup": false,
             "text": "<p>All orders over $500 require a signature. The carrier may also require a signature at their discretion. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p>",
