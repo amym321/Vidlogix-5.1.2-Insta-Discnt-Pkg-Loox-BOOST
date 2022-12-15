@@ -46,7 +46,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "b47b4e45-3a62-4d2a-9016-29028090552a": {
@@ -59,7 +60,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "0d01f7dc-88d5-4010-8808-c09eecaf52aa": {
@@ -68,11 +70,12 @@
             "title": "Shipping Insurance",
             "map_text": "",
             "map_popup": false,
-            "text": "<p><strong>By deselecting UPS Capital<\/strong>®<strong> Insurance, our options will be extremely limited in the event of damaged or lost packages.<\/strong><\/p><p>Vidlogix's liability for damage or loss to each package is limited to a value of $100. Unless a greater value is purchased, the receiver agrees that the released value of each package is no greater than $100, which is a reasonable value under the circumstances surrounding the transportation, and that Vidlogix shall not be liable for more than $100 for each package.<\/p>",
+            "text": "<p><strong>By deselecting UPS Capital<\/strong>®<strong> Insurance, our options will be limited in the event of damaged or lost packages.<\/strong><\/p><p>Vidlogix's liability for damage or loss to each package is limited to a value of $100. Unless a greater value is purchased, the receiver agrees that the released value of each package is no greater than $100, and that Vidlogix shall not be liable for more than $100 for each package.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": ""
+            "text2": "",
+            "anchor_link": ""
           }
         },
         "253ad047-efe2-4859-8afe-752e90b51111": {
@@ -85,7 +88,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "6aca3140-25db-4040-9578-771ed119a3ba": {
@@ -98,7 +102,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         },
         "1640041293a5780292-1": {
@@ -111,7 +116,8 @@
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>"
+            "text2": "<p><\/p>",
+            "anchor_link": ""
           }
         }
       },
