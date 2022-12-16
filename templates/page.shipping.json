@@ -70,7 +70,7 @@
             "title": "Signature required",
             "map_text": "",
             "map_popup": false,
-            "text": "<p>All orders over $500 require a signature. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p><p>You can request that your driver leaves your package on the next delivery attempt. Sign the UPS Delivery Notice in the space provided and place it back where the driver originally left the notice.<\/p>",
+            "text": "<p>All orders over $500 require a signature. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p><p><strong>Missed Delivery?<\/strong> <br\/>You can request that your driver leaves your package on the next delivery attempt. Sign the UPS Delivery Notice in the space provided and place it back where the driver originally left the notice.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
