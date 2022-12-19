@@ -20,10 +20,6 @@
   mobile_layout: section.settings.mobile_layout,
   video_looping: section.settings.enable_video_looping,
   video_style: section.settings.product_video_style,
-  enable_dp: section.settings.enable_dp,
-  dp_heading: section.settings.dp_heading,
-  dp_heading_default: section.settings.dp_heading_default,
-  dp_quickview_enabled: section.settings.dp_quickview_enabled
 -%}
 
 {% schema %}
@@ -201,30 +197,6 @@
       {
         "type": "header",
         "content": "Discount Packages"
-      },
-      {
-        "type": "checkbox",
-        "id": "enable_dp",
-        "label": "Enable",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "dp_heading",
-        "label": "Heading"
-      },
-      {
-        "type": "checkbox",
-        "id": "dp_heading_default",
-        "label": "Use default heading",
-        "info": "Default is the discount package title",
-        "default": false
-      },
-      {
-        "type": "checkbox",
-        "id": "dp_quickview_enabled",
-        "label": "Quickview Eabled",
-        "default": true
       }
     ],
     "blocks": [
