@@ -64,12 +64,13 @@
                     <div class="collapsible-content__inner collapsible-content__inner--faq rte" itemprop="text">
                      {% comment %} UPS Map popup - am {% endcomment %}
                       {% if block.settings.map_popup %}
-                        {% if block.settings.map_text %}
+                        {% if block.settings.map_text != empty %}
                           {% comment %} custom coded popup - am {% endcomment %}
                           <a id="map-btn" class="" style="cursor: pointer;">{{ block.settings.map_text }}</a> 
                         {% else %}
                           {% comment %} Help Scout Beacon popup - am {% endcomment %}
                           <a href="#" data-beacon-article-modal="62c84d1ad242501d78c628c3">UPS Time in Transit Map</a>
+                        {% endif %}
                       {% endif %}
                       {{ block.settings.text }}
                         {% comment %} code added - am. added more text & button to question block{% endcomment %}
@@ -182,18 +183,19 @@
               "default": "Frequently asked question"
             },
             {
+              "type": "checkbox",
+              "id": "map_popup",
+              "label": "Link opens UPS map popup.",
+              "default": false
+            },
+            {
               "type": "richtext",
               "id": "map_text",
               "label": "Map Popup Text",
-              "default": "<p>UPS Time In Transit Map</p>"
+              "default": "<p></p>",
+              "info": "Empty text opens Beacon popup. Entered text opens custom popup."
             },
-            {
-              "type": "checkbox",
-              "id": "map_popup",
-              "label": "Button opens Why Buy Vidlogix popup.",
-              "default": false, 
-              "info": "Map Popup Text must not be blank for popup to work."
-            },
+
             {
               "type": "richtext",
               "id": "text",
