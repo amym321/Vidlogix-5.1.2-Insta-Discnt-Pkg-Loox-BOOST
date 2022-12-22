@@ -63,10 +63,13 @@
                   <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <div class="collapsible-content__inner collapsible-content__inner--faq rte" itemprop="text">
                      {% comment %} UPS Map popup - am {% endcomment %}
-                      {% if block.settings.map_text and block.settings.map_popup %}
-                        <a id="map-btn" class="" style="cursor: pointer;">
-                          {{ block.settings.map_text }}
-                        </a>
+                      {% if block.settings.map_popup %}
+                        {% if block.settings.map_text %}
+                          {% comment %} custom coded popup - am {% endcomment %}
+                          <a id="map-btn" class="" style="cursor: pointer;">{{ block.settings.map_text }}</a> 
+                        {% else %}
+                          {% comment %} Help Scout Beacon popup - am {% endcomment %}
+                          <a href="#" data-beacon-article-modal="62c84d1ad242501d78c628c3">UPS Time in Transit Map</a>
                       {% endif %}
                       {{ block.settings.text }}
                         {% comment %} code added - am. added more text & button to question block{% endcomment %}

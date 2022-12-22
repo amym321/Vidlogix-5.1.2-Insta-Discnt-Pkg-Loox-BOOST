@@ -21,11 +21,19 @@
             {%- endif -%}
           </div>
         {%- when 'text' -%}
-          <div class="rte">
+        {% comment %} special link for Help Scout Beacon popup if setting set - am {% endcomment %}
+        <div class="rte {% if block.settings.beacon_popup == true %} inline-text {% endif %}">
             {%- if block.settings.text != blank -%}
               {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
               {{ block.settings.text }}
               {%- if block.settings.enlarge_text %}</div>{% endif -%}
+              {% if block.settings.beacon_popup %}
+                <span style="display:inline;">
+                  See 
+                  <a href="#" data-beacon-article-modal="62c84d1ad242501d78c628c3"> Delivery Times </a>
+                  for details.
+                </span>
+              {% endif %}
             {%- else -%}
               {{ 'home_page.onboarding.no_content' | t }}
             {%- endif -%}
@@ -111,6 +119,12 @@
             "type": "richtext",
             "label": "Text",
             "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type": "checkbox",
+            "id": "beacon_popup",
+            "label": "Add Beacon popup for UPS map.",
+            "default": false
           }
         ]
       },
