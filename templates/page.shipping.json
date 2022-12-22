@@ -41,13 +41,13 @@
           "type": "question",
           "settings": {
             "title": "Delivery times",
-            "map_text": "<p>UPS Time in Transit Map<\/p>",
             "map_popup": true,
+            "map_text": "",
             "text": "<p><\/p><p>Some items on our website are not regularly stocked. Availability on these items may show as Special Order.<\/p><p>In some cases, the manufacturer will ship select items to you directly. You may generally expect these items to arrive at U.S. destinations in 7-10 days, unless specified otherwise. <\/p><p>If items in your order qualify as a stock exception, we will ask you whether you'd like us to ship your full order when all items are in stock, or if you'd like to split a shipment (at no extra cost). The estimated delivery shown reflects the shipping time once your item reaches our warehouse.<\/p><p>The Restock Date posted on the product detail page is when we reasonably expect to have the product in stock based on anticipated demand, communications from the manufacturer, and other factors. The estimated time of arrival (ETA) date advised is the time required for the order to be delivered to our distribution center. These dates are good faith estimates and subject to delays or changes. You may cancel an order at any time before shipment. <\/p><p>If we email you a tracking number during the day, the information may not post to the carrier's website until that evening. <\/p><p>Business days are defined as Monday to Friday, excluding holidays.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
             "button_chat2": false,
-            "text2": "<p><\/p>",
+            "text2": "",
             "anchor_link": ""
           }
         },
@@ -55,8 +55,8 @@
           "type": "question",
           "settings": {
             "title": "Freight shipping",
-            "map_text": "<p>UPS Time In Transit Map<\/p>",
             "map_popup": false,
+            "map_text": "<p>UPS Time In Transit Map<\/p>",
             "text": "<p>Large or heavy items, including select TVs, require freight shipping. Available to most physical addresses in the 48 contiguous United States. Additional restrictions may apply, Call 833-933-1763 for more details.<\/p><p>Delivery time is <strong>2-5 business days<\/strong> for most orders. Allow extra time for delivery to remote addresses.<\/p><p><strong>Someone must receive the delivery.<\/strong> The freight carrier will contact you to schedule delivery to your door or the lobby area of your apartment or condo. Someone will need to be available to meet the driver and sign for the package. Freight deliveries are scheduled for Monday through Friday between 9 AM and 5 PM.<\/p><p><strong>What to expect from the delivery driver.<\/strong> This is a large, heavy item, so arrange to have someone else there to help you unpack and install your equipment. The delivery driver will not help you unpack or set up your new equipment, nor will he or she remove your old equipment or packaging.<\/p><p><strong>White Glove Delivery<\/strong>. Select televisions (TVs) qualify for white glove delivery. \"White Glove\" is a premium service that includes carrying the product into any accessible room of your home and unboxing it. The delivery includes the removal and disposal of packaging. Installation is not included.<\/p><p><strong>Keep the product packaging.<\/strong> You'll need it if you have to return or move your item.<\/p><p><strong>DAMAGED & MISSING MERCHANDISE MUST BE REPORTED WITHIN 7 DAYS OF RECEIVING YOUR ORDER.<\/strong><\/p><p>Prior to signing receipt of your shipment, carefully inspect the box or boxes for any damage. If you see damage you must mark the delivery receipt accordingly. It is recommended to take pictures of the outside of the box and the inside of the box. Then unpack the contents to ensure there is no concealed damage or missing items.<\/p><p>E-mail the following documentation to <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\" title=\"hello@vidlogix.com\">hello@vidlogix.com<\/a> and we will be happy to work with the freight company to process a damage claim. <\/p><p>• Vidlogix order number<br\/>• Freight tracking number<br\/>• Photographs and description of damage<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -69,8 +69,8 @@
           "type": "question",
           "settings": {
             "title": "Signature required",
-            "map_text": "",
             "map_popup": false,
+            "map_text": "",
             "text": "<p><strong>Orders over $500.<\/strong> Since most Vidlogix shipments contain valuable items, we require our carriers to obtain a signature when they deliver a package. The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. We are unable to change the shipping address once your order has been placed.<\/p><p><strong>UPS My Choice.<\/strong> You may not change the delivery date or address. We do this to protect the receiver against package fraud.<\/p><p><strong>Missed delivery?<\/strong> You can request that your driver leaves your package on the next delivery attempt. Sign the UPS Delivery Notice in the space provided and place it back where the driver originally left the notice.<\/p><p><strong>No delivery notice?<\/strong> The carrier may make subsequent delivery attempts before returning the shipment to Vidlogix. <\/p><p><strong>Returned to sender?<\/strong> Sorry we missed you. We'll issue a full and prompt refund when the shipment returns to Vidlogix.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -83,8 +83,8 @@
           "type": "question",
           "settings": {
             "title": "Shipping Insurance",
-            "map_text": "",
             "map_popup": false,
+            "map_text": "",
             "text": "<p><strong>By deselecting UPS Capital<\/strong>®<strong> Insurance, our options will be limited in the event of damaged or lost packages.<\/strong><\/p><p>Vidlogix's liability for damage or loss to each package is limited to a value of $100. Unless a greater value is purchased, the receiver agrees that the released value of each package is no greater than $100, and that Vidlogix shall not be liable for more than $100 for each package.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -97,8 +97,8 @@
           "type": "question",
           "settings": {
             "title": "Shipping delays",
-            "map_text": "<p><\/p>",
             "map_popup": false,
+            "map_text": "<p><\/p>",
             "text": "<p>Weather, natural disasters and other uncontrollable events can interrupt UPS transportation flow. Shipments delayed due to an uncontrollable event are not eligible for a refund or credit under the UPS money-back guarantee policy.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -111,8 +111,8 @@
           "type": "question",
           "settings": {
             "title": "Shipping errors",
-            "map_text": "<p><\/p>",
             "map_popup": false,
+            "map_text": "<p><\/p>",
             "text": "<p>Contact our Customer Support team at <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\" title=\"mailto:hello@vidlogix.com\">hello@vidlogix.com<\/a> and we will coordinate a reorder to ship the correct merchandise at no additional cost to you. We may also provide you with a prepaid return shipping label and request an immediate return of the incorrectly received merchandise. To avoid additional charges the incorrectly received merchandise must be shipped within 7 days of receiving the prepaid return shipping label. All regular return policies still apply. All merchandise must be returned unused and in original packaging in order to avoid being charged.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
