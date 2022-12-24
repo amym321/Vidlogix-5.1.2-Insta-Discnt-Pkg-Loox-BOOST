@@ -190,6 +190,16 @@
             "author_info": ""
           }
         },
+        "163746679909a0cbe2-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Vidlogix is a large retailer, but there's still that hometown feeling they've been able to preserve within their culture. You feel like you're dealing with something other than a box store.<\/p>",
+            "image": "shopify:\/\/shop_images\/UGC-6.png",
+            "author": "Diane K.",
+            "author_info": ""
+          }
+        },
         "163746679909a0cbe2-0": {
           "type": "testimonial",
           "settings": {
@@ -209,23 +219,13 @@
             "author": "Karen F.",
             "author_info": ""
           }
-        },
-        "163746679909a0cbe2-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Vidlogix is a large retailer, but there's still that hometown feeling they've been able to preserve within their culture. You feel like you're dealing with something other than a box store.<\/p>",
-            "image": "shopify:\/\/shop_images\/UGC-6.png",
-            "author": "Diane K.",
-            "author_info": ""
-          }
         }
       },
       "block_order": [
         "163746679909a0cbe2-2",
+        "163746679909a0cbe2-3",
         "163746679909a0cbe2-0",
-        "163746679909a0cbe2-1",
-        "163746679909a0cbe2-3"
+        "163746679909a0cbe2-1"
       ],
       "settings": {
         "title": "Happy Customers",
