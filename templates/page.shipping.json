@@ -20,7 +20,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Orders ship to the billing address.<\/strong> <strong>We do not ship to freight forwarders or PO\/UPS boxes. Orders $500+ require a signature.<\/strong> Orders are processed on weekdays, from 8am-4pm ET, excluding holidays. In-stock items are usually shipped the same day of order. All shipments are subject to review and could be delayed or stopped if we identify an issue. UPS Ground shipping takes 1-6 days to arrive from when the order is shipped.<\/p>",
+            "text": "<p><strong>Orders ship to the billing address.<\/strong> <strong>We do not ship to exporter or PO\/UPS boxes. Orders $500+ require a signature.<\/strong> Orders are processed on weekdays, from 8am-4pm ET, excluding holidays. In-stock items are usually shipped the same day of order. All shipments are subject to review and could be delayed or stopped if we identify an issue. UPS Ground shipping takes 1-6 days to arrive from when the order is shipped.<\/p>",
             "beacon_popup": true
           }
         }
