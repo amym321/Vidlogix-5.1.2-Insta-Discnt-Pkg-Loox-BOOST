@@ -20,7 +20,8 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, and Shop Pay. Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. You may cancel an order at any time prior to shipment at no cost to you. <\/p>"
+            "text": "<p>Vidlogix accepts Visa, Mastercard, Discover, American Express, and Shop Pay. Vidlogix will post payment upon shipment or within seven (7) days of order receipt, whichever is shorter. You may cancel an order at any time before shipment at no cost to you. <\/p>",
+            "beacon_popup": false
           }
         }
       },
@@ -40,8 +41,8 @@
           "type": "question",
           "settings": {
             "title": "Order Acceptance",
-            "map_text": "",
             "map_popup": false,
+            "map_text": "",
             "text": "<p>Vidlogix may, in its sole discretion, refuse or cancel any order and limit order quantity. Vidlogix may also require additional qualifying information prior to accepting or processing any order. Once we receive your Online or Call Center order, we’ll provide you with an email order confirmation. Your receipt of an order confirmation, however, does not signify Vidlogix’s acceptance of your order, nor does it constitute confirmation of our offer to sell; we are simply confirming that we received your order. Vidlogix reserves the right at any time after receiving your order to accept or decline your order for any reason. If Vidlogix cancels an order after you have already been billed, Vidlogix will refund the billed amount.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -54,8 +55,8 @@
           "type": "question",
           "settings": {
             "title": "Order Cancellation",
-            "map_text": "<p><\/p>",
             "map_popup": false,
+            "map_text": "<p><\/p>",
             "text": "<p>Replying to your email order confirmation is the easiest and fastest way to cancel a pending order. Please double-check your shipping address and reach out to our team immediately if it needs to be changed. Once you receive a shipping notification we are unable to update addresses. If your address is missing information or needs verification, our team will attempt to reach you via email once. If we are unable to reach you, your order will be canceled and refunded. If your order has shipped and you no longer want these items, we will attempt to intercept the package. Fees may apply for all types of requests; however, you’ll only be charged if the request is completed. If we cannot intercept the package, you may return it after arriving.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -68,8 +69,8 @@
           "type": "question",
           "settings": {
             "title": "Product Pricing",
-            "map_text": "<p><\/p>",
             "map_popup": false,
+            "map_text": "<p><\/p>",
             "text": "<p>Vidlogix reserves the right to change prices for products displayed at\/on the Vidlogix Store at any time, and to correct pricing errors that may inadvertently occur.<\/p><p>Vidlogix will match the price shown on any US-based retailer's website for the identical in-stock product (same size, color, year). <a href=\"https:\/\/www.vidlogix.com\/pages\/price-match\" target=\"_blank\">Learn more<\/a><\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -82,8 +83,8 @@
           "type": "question",
           "settings": {
             "title": "Product Availability",
-            "map_text": "<p>UPS Time In Transit Map<\/p>",
             "map_popup": false,
+            "map_text": "<p>UPS Time In Transit Map<\/p>",
             "text": "<p><strong>Out of Stock<\/strong> - There may be occasions when Vidlogix confirms your order but subsequently learns that it cannot supply the ordered product. In the event we cannot supply a product you ordered, Vidlogix will cancel the order and refund your purchase price in full.<\/p><p><strong>Backorder Date<\/strong> - This is the date we reasonably expect to have this product in stock based on anticipated demand, communications from the manufacturer, and other factors. This is a good faith estimate, not a guarantee. You may cancel an order at any time prior to shipment at no cost to you. Orders are fulfilled on a first-come-first-serve basis.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -97,8 +98,8 @@
           "disabled": true,
           "settings": {
             "title": "Discounts",
-            "map_text": "<p><\/p>",
             "map_popup": false,
+            "map_text": "<p><\/p>",
             "text": "<p><strong>Product exclusions may apply.<br\/>Excludes promotional price reductions.<\/strong><\/p><p>Offers cannot be combined with other offers, discounts, or promo codes. The offer is not valid on prior purchases. Valid on approved domestic U.S. orders only. Vidlogix reserves the right to change terms and conditions, substitute an offer of equal or greater value, or end offers at any time without notice. No cash alternative. Void where prohibited by law. Vidlogix's standard terms and conditions presented at the point of sale govern any purchase.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
@@ -111,8 +112,8 @@
           "type": "question",
           "settings": {
             "title": "Sales Tax Policy",
-            "map_text": "<p><\/p>",
             "map_popup": false,
+            "map_text": "<p><\/p>",
             "text": "<p>Your order contains one or more items from Vidlogix and may be subject to local sales tax, depending on the state to which the item is being shipped. Unless otherwise noted, Vidlogix's items are subject to sales tax in select states following the state's applicable laws. We do not collect sales or use taxes in all states. For states imposing sales or use taxes, your purchase is subject to use tax unless specifically exempt from taxation. Your purchase is not exempt merely because it is made over the Internet or other remote means. Many states require purchasers to file a sales\/use tax return at the end of the year reporting all of the taxable purchases that were not taxed and to pay tax on those purchases. You may find details on how to file these returns at the websites of your respective taxing authorities. The sales tax indicated on the checkout form is an estimate. The sales tax ultimately charged to your credit card will be calculated when your credit card charge is authorized and will reflect applicable state and local taxes.<\/p>",
             "button_link2": "",
             "button_text2": "Button text",
