@@ -20,7 +20,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Vidlogix wants you to be thrilled with your new purchase. However, if you need to return an item, we're here to help.<\/p><p>For any undamaged product, simply return it with its included accessories and packaging along with the original receipt (or gift receipt) within <strong>60 days<\/strong>, and we’ll offer a refund based upon the original payment method.<\/p>",
+            "text": "<p>Vidlogix wants you to be thrilled with your new purchase. However, if you need to return an item, we're here to help.<\/p><p>For any undamaged product, return it with its included accessories and packaging along with the original receipt (or gift receipt) within <strong>60 days. <\/strong>We’ll offer a refund based on the original payment method.<\/p>",
             "beacon_popup": false
           }
         },
