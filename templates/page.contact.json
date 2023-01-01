@@ -46,7 +46,7 @@
       "type": "contact-form",
       "settings": {
         "title": "Contact Us",
-        "text": "<p><strong>Questions, Feedback, Press Inquiries, Partnership Opportunities?<\/strong> <\/p><p>Please email <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\" title=\"mailto:hello@vidlogix.com\">hello@vidlogix.com<\/a> or fill out the form below, and a team member will be with you shortly.<\/p>",
+        "text": "<p><strong>Questions, feedback, press inquiries, partnership opportunities?<\/strong> <\/p><p>Please email <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\" title=\"mailto:hello@vidlogix.com\">hello@vidlogix.com<\/a> or fill out the form below, and a team member will be with you shortly.<\/p>",
         "show_phone": true,
         "narrow_column": true
       }
